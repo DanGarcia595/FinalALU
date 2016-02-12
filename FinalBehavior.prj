@@ -1,0 +1,2 @@
+vhdl work "../../ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd"
+vhdl work "FinalBehavior.vhd"

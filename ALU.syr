@@ -1,0 +1,479 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" in Library work.
+Entity <Arith_Unit> compiled.
+Entity <Arith_Unit> (Architecture <Combinational>) compiled.
+Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" in Library work.
+Entity <Logic_Unit> compiled.
+Entity <Logic_Unit> (Architecture <Combinational>) compiled.
+Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" in Library work.
+Entity <ALU_Shift_Unit> compiled.
+Entity <ALU_Shift_Unit> (Architecture <Combinational>) compiled.
+Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" in Library work.
+Entity <Load_Store_Unit> compiled.
+Entity <Load_Store_Unit> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" in Library work.
+Entity <ALU_Mux> compiled.
+Entity <ALU_Mux> (Architecture <Combinational>) compiled.
+Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" in Library work.
+Entity <ALU> compiled.
+Entity <ALU> (Architecture <Structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <Structural>).
+
+Analyzing hierarchy for entity <Arith_Unit> in library <work> (architecture <Combinational>).
+
+Analyzing hierarchy for entity <Logic_Unit> in library <work> (architecture <Combinational>).
+
+Analyzing hierarchy for entity <ALU_Shift_Unit> in library <work> (architecture <Combinational>).
+
+Analyzing hierarchy for entity <Load_Store_Unit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ALU_Mux> in library <work> (architecture <Combinational>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALU> in library <work> (Architecture <Structural>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <Arith_Unit> in library <work> (Architecture <Combinational>).
+Entity <Arith_Unit> analyzed. Unit <Arith_Unit> generated.
+
+Analyzing Entity <Logic_Unit> in library <work> (Architecture <Combinational>).
+Entity <Logic_Unit> analyzed. Unit <Logic_Unit> generated.
+
+Analyzing Entity <ALU_Shift_Unit> in library <work> (Architecture <Combinational>).
+Entity <ALU_Shift_Unit> analyzed. Unit <ALU_Shift_Unit> generated.
+
+Analyzing Entity <Load_Store_Unit> in library <work> (Architecture <Behavioral>).
+Entity <Load_Store_Unit> analyzed. Unit <Load_Store_Unit> generated.
+
+Analyzing Entity <ALU_Mux> in library <work> (Architecture <Combinational>).
+Entity <ALU_Mux> analyzed. Unit <ALU_Mux> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Arith_Unit>.
+    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd".
+    Found 1-bit xor2 for signal <CCR<1>>.
+    Found 9-bit addsub for signal <arith>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Arith_Unit> synthesized.
+
+
+Synthesizing Unit <Logic_Unit>.
+    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd".
+WARNING:Xst:653 - Signal <cmp<1:0>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+    Found 8-bit comparator equal for signal <cmp_2$cmp_eq0000> created at line 42.
+    Found 8-bit comparator less for signal <cmp_3$cmp_lt0000> created at line 41.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <Logic_Unit> synthesized.
+
+
+Synthesizing Unit <ALU_Shift_Unit>.
+    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd".
+    Found 8-bit shifter logical left for signal <shift_left>.
+    Found 8-bit shifter logical right for signal <shift_right>.
+    Summary:
+	inferred   2 Combinational logic shifter(s).
+Unit <ALU_Shift_Unit> synthesized.
+
+
+Synthesizing Unit <Load_Store_Unit>.
+    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd".
+WARNING:Xst:647 - Input <IMMED> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <reg>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <Load_Store_Unit> synthesized.
+
+
+Synthesizing Unit <ALU_Mux>.
+    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd".
+Unit <ALU_Mux> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd".
+Unit <ALU> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 9-bit addsub                                          : 1
+# Registers                                            : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator less                                 : 1
+# Logic shifters                                       : 2
+ 8-bit shifter logical left                            : 1
+ 8-bit shifter logical right                           : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 9-bit addsub                                          : 1
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Comparators                                          : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator less                                 : 1
+# Logic shifters                                       : 2
+ 8-bit shifter logical left                            : 1
+ 8-bit shifter logical right                           : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <Load_Store_Unit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU, actual ratio is 1.
+FlipFlop Load_Store_Unit/reg_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Load_Store_Unit/reg_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Load_Store_Unit/reg_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Load_Store_Unit/reg_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Load_Store_Unit/reg_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Load_Store_Unit/reg_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Load_Store_Unit/reg_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop Load_Store_Unit/reg_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU.ngr
+Top Level Output File Name         : ALU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 41
+
+Cell Usage :
+# BELS                             : 166
+#      GND                         : 1
+#      LUT2                        : 22
+#      LUT3                        : 36
+#      LUT4                        : 67
+#      MUXCY                       : 16
+#      MUXF5                       : 14
+#      VCC                         : 1
+#      XORCY                       : 9
+# FlipFlops/Latches                : 16
+#      FDE                         : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 40
+#      IBUF                        : 20
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       70  out of   4656     1%  
+ Number of Slice Flip Flops:              8  out of   9312     0%  
+ Number of 4 input LUTs:                125  out of   9312     1%  
+ Number of IOs:                          41
+ Number of bonded IOBs:                  41  out of    232    17%  
+    IOB Flip Flops:                       8
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 4.737ns
+   Maximum output required time after clock: 8.234ns
+   Maximum combinational path delay: 12.680ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 80 / 32
+-------------------------------------------------------------------------
+Offset:              4.737ns (Levels of Logic = 2)
+  Source:            OPCODE<3> (PAD)
+  Destination:       Load_Store_Unit/reg_7 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: OPCODE<3> to Load_Store_Unit/reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.218   1.226  OPCODE_3_IBUF (OPCODE_3_IBUF)
+     LUT4:I0->O           16   0.704   1.034  Load_Store_Unit/w_en_cmp_eq00001 (Load_Store_Unit/w_en)
+     FDE:CE                    0.555          Load_Store_Unit/reg_0
+    ----------------------------------------
+    Total                      4.737ns (2.477ns logic, 2.260ns route)
+                                       (52.3% logic, 47.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              8.234ns (Levels of Logic = 5)
+  Source:            Load_Store_Unit/reg_0 (FF)
+  Destination:       ALU_OUT<0> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: Load_Store_Unit/reg_0 to ALU_OUT<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.591   0.499  Load_Store_Unit/reg_0 (Load_Store_Unit/reg_0)
+     LUT4:I1->O            1   0.704   0.000  ALU_Mux/ALU_OUT<0>62 (ALU_Mux/ALU_OUT<0>61)
+     MUXF5:I1->O           1   0.321   0.595  ALU_Mux/ALU_OUT<0>6_f5 (ALU_Mux/ALU_OUT<0>6)
+     LUT4:I0->O            1   0.704   0.424  ALU_Mux/ALU_OUT<0>59 (ALU_Mux/ALU_OUT<0>59)
+     LUT4:I3->O            1   0.704   0.420  ALU_Mux/ALU_OUT<0>191 (ALU_OUT_0_OBUF)
+     OBUF:I->O                 3.272          ALU_OUT_0_OBUF (ALU_OUT<0>)
+    ----------------------------------------
+    Total                      8.234ns (6.296ns logic, 1.938ns route)
+                                       (76.5% logic, 23.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1115 / 12
+-------------------------------------------------------------------------
+Delay:               12.680ns (Levels of Logic = 14)
+  Source:            OPCODE<1> (PAD)
+  Destination:       CCR<2> (PAD)
+
+  Data Path: OPCODE<1> to CCR<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.218   1.260  OPCODE_1_IBUF (OPCODE_1_IBUF)
+     LUT3:I0->O            9   0.704   0.855  ALU_Mux/CCR_OUT_cmp_eq00011 (ALU_Mux/CCR_OUT_cmp_eq0001)
+     LUT3:I2->O            1   0.704   0.000  Arith_Unit/Maddsub_arith_lut<0> (Arith_Unit/Maddsub_arith_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Arith_Unit/Maddsub_arith_cy<0> (Arith_Unit/Maddsub_arith_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Arith_Unit/Maddsub_arith_cy<1> (Arith_Unit/Maddsub_arith_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Arith_Unit/Maddsub_arith_cy<2> (Arith_Unit/Maddsub_arith_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Arith_Unit/Maddsub_arith_cy<3> (Arith_Unit/Maddsub_arith_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Arith_Unit/Maddsub_arith_cy<4> (Arith_Unit/Maddsub_arith_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Arith_Unit/Maddsub_arith_cy<5> (Arith_Unit/Maddsub_arith_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Arith_Unit/Maddsub_arith_cy<6> (Arith_Unit/Maddsub_arith_cy<6>)
+     XORCY:CI->O           4   0.804   0.762  Arith_Unit/Maddsub_arith_xor<7> (arith<7>)
+     LUT4:I0->O            1   0.704   0.455  ALU_Mux/CCR_OUT<2>181 (ALU_Mux/CCR_OUT<2>181)
+     LUT3:I2->O            1   0.704   0.420  ALU_Mux/CCR_OUT<2>196 (CCR_2_OBUF)
+     OBUF:I->O                 3.272          CCR_2_OBUF (CCR<2>)
+    ----------------------------------------
+    Total                     12.680ns (8.928ns logic, 3.752ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.92 secs
+ 
+--> 
+
+
+Total memory usage is 520152 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/dan/ECE368/FinalALU/FinalBehavior.ncd
+OUTFILE=/home/dan/ECE368/FinalALU/FinalBehavior.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/dan/ECE368/FinalALU
+LICENSE=WebPack
+USER_INFO=211148512_0_0_117

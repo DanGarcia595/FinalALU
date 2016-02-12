@@ -1,0 +1,6 @@
+vhdl work "../../ECE368-Lab/Lab 2/ALU/load_store_unit.vhd"
+vhdl work "../../ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd"
+vhdl work "../../ECE368-Lab/Lab 2/ALU/alu_mux.vhd"
+vhdl work "../../ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd"
+vhdl work "../../ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd"
+vhdl work "../../ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd"
