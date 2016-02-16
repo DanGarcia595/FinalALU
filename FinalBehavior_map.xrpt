@@ -5,13 +5,18 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
+<<<<<<< HEAD
   <application stringID="Map" timeStamp="Fri Feb 12 18:08:33 2016">
+=======
+  <application stringID="Map" timeStamp="Fri Feb 12 16:51:04 2016">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="XILINX_DSP"/>
+<<<<<<< HEAD
           <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE"/>
         </row>
         <row stringID="row" value="1">
@@ -25,6 +30,21 @@
         <row stringID="row" value="3">
           <item stringID="variable" value="PATH"/>
           <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/util:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/bin:/opt/Xilinx/14.7/ISE_DS/ISE/../../../DocNav:/opt/Xilinx/14.7/ISE_DS/PlanAhead/bin:/opt/Xilinx/14.7/ISE_DS/EDK/bin/lin64:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"/>
+=======
+          <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="LD_LIBRARY_PATH"/>
+          <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE//lib/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/lib/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64/lib:/opt/Xlinix/14.7/ISE_DS/ISE/sysgen/lib:/opt/Xlinix/14.7/ISE_DS/EDK/lib/lin64:/opt/Xlinix/14.7/ISE_DS/common/lib/lin64"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/EDK"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="PATH"/>
+          <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE//bin/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/sysgen/util:/opt/Xlinix/14.7/ISE_DS/ISE/sysgen/bin:/opt/Xlinix/14.7/ISE_DS/ISE/../../../DocNav:/opt/Xlinix/14.7/ISE_DS/PlanAhead/bin:/opt/Xlinix/14.7/ISE_DS/EDK/bin/lin64:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xlinix/14.7/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin"/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="XIL_IMPACT_USE_LIBUSB"/>
@@ -32,6 +52,7 @@
         </row>
         <row stringID="row" value="5">
           <item stringID="variable" value="LMC_HOME"/>
+<<<<<<< HEAD
           <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
         </row>
         <row stringID="row" value="6">
@@ -48,12 +69,35 @@
         <item stringID="User_EnvOsrelease" value="Arch Linux"/>
       </item>
       <item stringID="User_EnvHost" value="arch"/>
+=======
+          <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
+        </row>
+        <row stringID="row" value="6">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/PlanAhead"/>
+        </row>
+        <row stringID="row" value="7">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE/"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Ubuntu"/>
+        <item stringID="User_EnvOsrelease" value="Ubuntu 15.04"/>
+      </item>
+      <item stringID="User_EnvHost" value="MasterNode"/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
+<<<<<<< HEAD
           <item stringID="arch" value="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"/>
           <item stringID="speed" value="3179.156 MHz"/>
+=======
+          <item stringID="arch" value="Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz"/>
+          <item stringID="speed" value="3387.656 MHz"/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
         </row>
       </table>
     </section>
@@ -76,9 +120,15 @@
       <section stringID="MAP_DESIGN_SUMMARY">
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
+<<<<<<< HEAD
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="0"/>
         <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="592244"/>
         <item stringID="MAP_TOTAL_REAL_TIME" value="3 secs "/>
+=======
+        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="1"/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="597676"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="1 secs "/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
         <item stringID="MAP_TOTAL_CPU_TIME" value="1 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
@@ -92,7 +142,11 @@
       </section>
       <section stringID="MAP_IOB_REPORTING">
         <section stringID="MAP_IOB_DATA">
+<<<<<<< HEAD
           <item AVAILABLE="232" dataType="int" stringID="MAP_AGG_BONDED_IO" value="24"/>
+=======
+          <item AVAILABLE="232" dataType="int" stringID="MAP_AGG_BONDED_IO" value="25"/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
         </section>
       </section>
       <section stringID="MAP_HARD_IP_REPORTING">
@@ -158,27 +212,49 @@
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
           <row stringID="row" value="6">
+<<<<<<< HEAD
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="BTN&lt;2>"/>
+=======
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="BTN&lt;1>"/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
           <row stringID="row" value="7">
+<<<<<<< HEAD
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="BTN&lt;3>"/>
+=======
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="BTN&lt;2>"/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
           <row stringID="row" value="8">
+<<<<<<< HEAD
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="CLK"/>
+=======
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="BTN&lt;3>"/>
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
           <row stringID="row" value="9">
+<<<<<<< HEAD
+=======
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="CLK"/>
+            <item stringID="Type" value="IBUF"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
+            <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
+          </row>
+          <row stringID="row" value="10">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="DP"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -187,7 +263,11 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="10">
+=======
+          <row stringID="row" value="11">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SEG&lt;0>"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -196,7 +276,11 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="11">
+=======
+          <row stringID="row" value="12">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SEG&lt;1>"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -205,7 +289,11 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="12">
+=======
+          <row stringID="row" value="13">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SEG&lt;2>"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -214,7 +302,11 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="13">
+=======
+          <row stringID="row" value="14">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SEG&lt;3>"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -223,7 +315,11 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="14">
+=======
+          <row stringID="row" value="15">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SEG&lt;4>"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -232,7 +328,11 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="15">
+=======
+          <row stringID="row" value="16">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SEG&lt;5>"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -241,7 +341,11 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="16">
+=======
+          <row stringID="row" value="17">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SEG&lt;6>"/>
             <item stringID="Type" value="IOB"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -250,56 +354,88 @@
             <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="17">
+=======
+          <row stringID="row" value="18">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;0>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="18">
+=======
+          <row stringID="row" value="19">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;1>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="19">
+=======
+          <row stringID="row" value="20">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;2>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="20">
+=======
+          <row stringID="row" value="21">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;3>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="21">
+=======
+          <row stringID="row" value="22">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;4>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="22">
+=======
+          <row stringID="row" value="23">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;5>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="23">
+=======
+          <row stringID="row" value="24">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;6>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS25"/>
             <item label="IOB&#xA;Delay" stringID="IOB_DELAY" value="0 / 0"/>
           </row>
+<<<<<<< HEAD
           <row stringID="row" value="24">
+=======
+          <row stringID="row" value="25">
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
             <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="SW&lt;7>"/>
             <item stringID="Type" value="IBUF"/>
             <item stringID="Direction" value="INPUT"/>

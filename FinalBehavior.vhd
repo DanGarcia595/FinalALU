@@ -43,17 +43,32 @@ architecture Behavioral of FinalBehavior is
 	 --signal s0  : STD_LOGIC_VECTOR (3 downto 0) := "0000"; --F
     signal RA  : STD_LOGIC_VECTOR (7 downto 0); --A
 	 signal RB  : STD_LOGIC_VECTOR (7 downto 0); --C
+<<<<<<< HEAD
  	 signal op  : STD_LOGIC_VECTOR (2 downto 0); --C
 	 signal tmp  : STD_LOGIC_VECTOR (7 downto 0); --C
 	 signal tmp2  : STD_LOGIC_VECTOR (3 downto 0); --C
 	 signal rslt: STD_LOGIC_VECTOR (7 downto 0); --C
 	 signal s3  : STD_LOGIC_VECTOR (3 downto 0) := "1110"; --E
+=======
+    signal s3  : STD_LOGIC_VECTOR (3 downto 0) := "1110"; --E
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
     signal enl : STD_LOGIC := '1';
     signal dpc : STD_LOGIC_VECTOR (3 downto 0) := "1111";
     signal cen : STD_LOGIC := '0';
 	 
 begin
 	
+<<<<<<< HEAD
+=======
+	reset: process (BTN(0),CLK)
+	begin
+        if (CLK'event and CLK = '1' and BTN(0) = '1') then
+            RA <= "00000000";
+				RB <= "00000000";
+        end if;
+    end process;
+	 
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 	store_1: process (BTN(3), CLK)
     begin
         if (CLK'event and CLK = '1' and BTN(3) = '1') then
@@ -68,6 +83,7 @@ begin
         end if;
     end process;
 	 
+<<<<<<< HEAD
 	 operate: process (BTN(1), CLK)
     begin
         if (CLK'event and CLK = '1' and BTN(1) = '1') then
@@ -93,6 +109,10 @@ begin
 	
 	SSeg: entity work.SSegDriver
 	port map(  CLK     => CLK,
+=======
+	SSeg: entity work.SSegDriver
+	port map( CLK     => CLK,
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
               RST     => BTN(0),
               EN      => enl,
               SEG_0   => RA(7 downto 4),

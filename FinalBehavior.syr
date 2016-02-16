@@ -71,7 +71,11 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
+<<<<<<< HEAD
 Global Maximum Fanout              : 100000
+=======
+Global Maximum Fanout              : 500
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -107,6 +111,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
+<<<<<<< HEAD
 Compiling vhdl file "/home/bobby/Lab 2/ALU/alu_mux.vhd" in Library work.
 Architecture combinational of Entity alu_mux is up to date.
 Compiling vhdl file "/home/bobby/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
@@ -122,4 +127,215 @@ Total memory usage is 488944 kilobytes
 Number of errors   :    1 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
+=======
+Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
+Architecture behavioral of Entity ssegdriver is up to date.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/FinalBehavior.vhd" in Library work.
+Entity <finalbehavior> compiled.
+Entity <finalbehavior> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <FinalBehavior> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SSegDriver> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <FinalBehavior> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <RA> in unit <FinalBehavior> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <RB> in unit <FinalBehavior> has a constant value of 00000000 during circuit operation. The register is replaced by logic.
+Entity <FinalBehavior> analyzed. Unit <FinalBehavior> generated.
+
+Analyzing Entity <SSegDriver> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <clk240hz>
+INFO:Xst:1561 - "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 120: Mux is complete : default of case is discarded
+Entity <SSegDriver> analyzed. Unit <SSegDriver> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SSegDriver>.
+    Related source file is "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd".
+WARNING:Xst:647 - Input <COL_EN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 16x7-bit ROM for signal <segnum>.
+    Found 4x4-bit ROM for signal <AN_OUT$mux0001> created at line 104.
+    Found 4-bit register for signal <AN_OUT>.
+    Found 1-bit register for signal <DP_OUT>.
+    Found 1-bit register for signal <clk240hz>.
+    Found 17-bit up counter for signal <count240hz>.
+    Found 1-bit 4-to-1 multiplexer for signal <DP_OUT$mux0001> created at line 104.
+    Found 4-bit register for signal <hexnum>.
+    Found 4-bit 4-to-1 multiplexer for signal <hexnum$mux0001> created at line 104.
+    Found 2-bit up counter for signal <pos>.
+    Summary:
+	inferred   2 ROM(s).
+	inferred   2 Counter(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <SSegDriver> synthesized.
+
+
+Synthesizing Unit <FinalBehavior>.
+    Related source file is "/home/dan/ECE368/FinalALU/FinalBehavior.vhd".
+WARNING:Xst:647 - Input <BTN<1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <s3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <enl> is used but never assigned. This sourceless signal will be automatically connected to value 1.
+WARNING:Xst:653 - Signal <dpc> is used but never assigned. This sourceless signal will be automatically connected to value 1111.
+WARNING:Xst:653 - Signal <cen> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+    Found 8-bit register for signal <RA>.
+    Found 8-bit register for signal <RB>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <FinalBehavior> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Counters                                             : 2
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 6
+ 1-bit register                                        : 2
+ 4-bit register                                        : 2
+ 8-bit register                                        : 2
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x4-bit ROM                                           : 1
+# Counters                                             : 2
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<7>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_7>
+   Signal <RA<7>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<6>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_6>
+   Signal <RA<6>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<5>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_5>
+   Signal <RA<5>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<4>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_4>
+   Signal <RA<4>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<3>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_3>
+   Signal <RA<3>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<2>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_2>
+   Signal <RA<2>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_1>
+   Signal <RA<1>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RA<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RA_0>
+   Signal <RA<0>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<7>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_7>
+   Signal <RB<7>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<6>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_6>
+   Signal <RB<6>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<5>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_5>
+   Signal <RB<5>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<4>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_4>
+   Signal <RB<4>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<3>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_3>
+   Signal <RB<3>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<2>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_2>
+   Signal <RB<2>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_1>
+   Signal <RB<1>> in Unit <FinalBehavior> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <FinalBehavior> on signal <RB<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <RB_0>
+   Signal <RB<0>> in Unit <FinalBehavior> is assigned to GND
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.11 secs
+ 
+--> 
+
+
+Total memory usage is 516636 kilobytes
+
+Number of errors   :   16 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 

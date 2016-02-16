@@ -2,7 +2,11 @@
 Release 14.7 Trace  (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
+<<<<<<< HEAD
 /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 4 -n
+=======
+/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 4 -n
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 3 -fastpaths -xml FinalBehavior.twx FinalBehavior.ncd -o FinalBehavior.twr
 FinalBehavior.pcf
 
@@ -45,6 +49,7 @@ Setup/Hold to clock CLK
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
+<<<<<<< HEAD
 BTN<2>      |    0.775(R)|    1.246(R)|CLK_BUFGP         |   0.000|
 BTN<3>      |    0.894(R)|    1.208(R)|CLK_BUFGP         |   0.000|
 SW<0>       |    0.179(R)|    1.080(R)|CLK_BUFGP         |   0.000|
@@ -55,6 +60,18 @@ SW<4>       |   -0.272(R)|    1.442(R)|CLK_BUFGP         |   0.000|
 SW<5>       |    0.330(R)|    0.960(R)|CLK_BUFGP         |   0.000|
 SW<6>       |   -0.253(R)|    1.427(R)|CLK_BUFGP         |   0.000|
 SW<7>       |   -0.275(R)|    1.445(R)|CLK_BUFGP         |   0.000|
+=======
+BTN<2>      |    1.809(R)|    0.840(R)|CLK_BUFGP         |   0.000|
+BTN<3>      |    1.224(R)|    0.882(R)|CLK_BUFGP         |   0.000|
+SW<0>       |    0.514(R)|    1.075(R)|CLK_BUFGP         |   0.000|
+SW<1>       |    0.489(R)|    1.517(R)|CLK_BUFGP         |   0.000|
+SW<2>       |   -0.045(R)|    1.257(R)|CLK_BUFGP         |   0.000|
+SW<3>       |    0.437(R)|    0.872(R)|CLK_BUFGP         |   0.000|
+SW<4>       |    1.468(R)|    0.464(R)|CLK_BUFGP         |   0.000|
+SW<5>       |    1.175(R)|    0.898(R)|CLK_BUFGP         |   0.000|
+SW<6>       |    1.172(R)|    0.283(R)|CLK_BUFGP         |   0.000|
+SW<7>       |    1.331(R)|    0.157(R)|CLK_BUFGP         |   0.000|
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 ------------+------------+------------+------------------+--------+
 
 Clock to Setup on destination clock CLK
@@ -62,18 +79,30 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
+<<<<<<< HEAD
 CLK            |    5.240|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
 Analysis completed Fri Feb 12 18:08:45 2016 
+=======
+CLK            |    5.176|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Feb 12 16:51:15 2016 
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
+<<<<<<< HEAD
 Peak Memory Usage: 347 MB
+=======
+Peak Memory Usage: 348 MB
+>>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 
 
 
