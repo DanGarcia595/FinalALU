@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/dan/ECE368/FinalALU/SSegDriver.xst" -ofn "/home/dan/ECE368/FinalALU/SSegDriver.syr" 

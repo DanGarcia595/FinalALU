@@ -1,0 +1,3 @@
+vhdl work "/home/bobby/Lab 2/SevenSegmentDisplay/SevenSeg.vhd"
+vhdl work "/home/bobby/Lab 2/ALU/alu_mux.vhd"
+vhdl work "/home/bobby/FinalALU-master/FinalBehavior.vhd"
