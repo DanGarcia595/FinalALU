@@ -107,23 +107,22 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" in Library work.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" in Library work.
 Architecture combinational of Entity arith_unit is up to date.
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" in Library work.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" in Library work.
 Architecture combinational of Entity logic_unit is up to date.
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" in Library work.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" in Library work.
 Architecture combinational of Entity alu_shift_unit is up to date.
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd" in Library work.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" in Library work.
 Architecture behavioral of Entity load_store_unit is up to date.
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd" in Library work.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" in Library work.
 Architecture combinational of Entity alu_mux is up to date.
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd" in Library work.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" in Library work.
 Architecture structural of Entity alu is up to date.
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
 Architecture behavioral of Entity ssegdriver is up to date.
-Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd" in Library work.
-Entity <finalbehavior> compiled.
-Entity <finalbehavior> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/dan/ECE368/FinalALU/FinalBehavior.vhd" in Library work.
+Architecture behavioral of Entity finalbehavior is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -170,9 +169,9 @@ Analyzing Entity <ALU_Mux> in library <work> (Architecture <Combinational>).
 Entity <ALU_Mux> analyzed. Unit <ALU_Mux> generated.
 
 Analyzing Entity <SSegDriver> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <clk240hz>
-INFO:Xst:1561 - "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 120: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 120: Mux is complete : default of case is discarded
 Entity <SSegDriver> analyzed. Unit <SSegDriver> generated.
 
 
@@ -183,7 +182,7 @@ Entity <SSegDriver> analyzed. Unit <SSegDriver> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <SSegDriver>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd".
 WARNING:Xst:647 - Input <COL_EN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16x7-bit ROM for signal <segnum>.
     Found 4x4-bit ROM for signal <AN_OUT$mux0001> created at line 104.
@@ -204,7 +203,7 @@ Unit <SSegDriver> synthesized.
 
 
 Synthesizing Unit <Arith_Unit>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd".
     Found 1-bit xor2 for signal <CCR<1>>.
     Found 9-bit addsub for signal <arith>.
     Summary:
@@ -213,7 +212,7 @@ Unit <Arith_Unit> synthesized.
 
 
 Synthesizing Unit <Logic_Unit>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd".
 WARNING:Xst:653 - Signal <cmp<1:0>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
     Found 8-bit comparator equal for signal <cmp_2$cmp_eq0000> created at line 42.
     Found 8-bit comparator less for signal <cmp_3$cmp_lt0000> created at line 41.
@@ -223,7 +222,7 @@ Unit <Logic_Unit> synthesized.
 
 
 Synthesizing Unit <ALU_Shift_Unit>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd".
     Found 8-bit shifter logical left for signal <shift_left>.
     Found 8-bit shifter logical right for signal <shift_right>.
     Summary:
@@ -232,7 +231,7 @@ Unit <ALU_Shift_Unit> synthesized.
 
 
 Synthesizing Unit <Load_Store_Unit>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd".
 WARNING:Xst:647 - Input <IMMED> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit register for signal <reg>.
     Summary:
@@ -241,17 +240,17 @@ Unit <Load_Store_Unit> synthesized.
 
 
 Synthesizing Unit <ALU_Mux>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd".
 Unit <ALU_Mux> synthesized.
 
 
 Synthesizing Unit <ALU>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd".
 Unit <ALU> synthesized.
 
 
 Synthesizing Unit <FinalBehavior>.
-    Related source file is "/home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd".
+    Related source file is "/home/dan/ECE368/FinalALU/FinalBehavior.vhd".
 WARNING:Xst:653 - Signal <tmp> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
 WARNING:Xst:1780 - Signal <s3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <enl> is used but never assigned. This sourceless signal will be automatically connected to value 1.
@@ -608,12 +607,12 @@ Offset:              11.940ns (Levels of Logic = 13)
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.05 secs
+Total CPU time to Xst completion: 4.18 secs
  
 --> 
 
 
-Total memory usage is 517488 kilobytes
+Total memory usage is 523188 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   11 (   0 filtered)

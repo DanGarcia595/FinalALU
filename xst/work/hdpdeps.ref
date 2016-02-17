@@ -1,68 +1,12 @@
-V3 40
+V3 47
 FL /home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd 2016/02/16.23:23:17 P.20131013
-EN work/FinalBehavior 1455683014 \
-      FL /home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd \
-      PB ieee/std_logic_1164 1381692176 LB work
-AR work/FinalBehavior/Behavioral 1455683015 \
-      FL /home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd \
-      EN work/FinalBehavior 1455683014 CP work/ALU CP work/SSegDriver
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" 2016/02/16.21:59:08 P.20131013
-EN work/Arith_Unit 1455683000 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Arith_Unit/Combinational 1455683001 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" \
-      EN work/Arith_Unit 1455683000
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" 2016/02/16.21:59:08 P.20131013
-EN work/Logic_Unit 1455683002 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Logic_Unit/Combinational 1455683003 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" \
-      EN work/Logic_Unit 1455683002
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd" 2016/02/16.21:59:08 P.20131013
-EN work/ALU_Mux 1455683008 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ALU_Mux/Combinational 1455683009 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd" \
-      EN work/ALU_Mux 1455683008
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" 2016/02/16.21:59:08 P.20131013
-EN work/ALU_Shift_Unit 1455683004 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ALU_Shift_Unit/Combinational 1455683005 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" \
-      EN work/ALU_Shift_Unit 1455683004
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd" 2016/02/16.21:59:08 P.20131013
-EN work/ALU 1455683010 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB work
-AR work/ALU/Structural 1455683011 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd" \
-      EN work/ALU 1455683010 CP work/Arith_Unit CP work/Logic_Unit \
-      CP work/alu_shift_unit CP work/Load_Store_Unit CP work/ALU_Mux
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd" 2016/02/16.21:59:08 P.20131013
-EN work/Load_Store_Unit 1455683006 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Load_Store_Unit/Behavioral 1455683007 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd" \
-      EN work/Load_Store_Unit 1455683006
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" 2016/02/16.21:59:08 P.20131013
-EN work/SSegDriver 1455683012 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/SSegDriver/Behavioral 1455683013 \
-      FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
-      EN work/SSegDriver 1455683012
 FL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" 2016/02/10.14:11:11 P.20131013
 FL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" 2016/02/10.14:11:11 P.20131013
 FL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" 2016/02/10.14:11:11 P.20131013
@@ -70,4 +14,63 @@ FL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" 2016/02/10.14:11:11 P.201
 FL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" 2016/02/10.14:11:11 P.20131013
 FL "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" 2016/02/10.14:11:11 P.20131013
 FL "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" 2016/02/10.14:11:11 P.20131013
-FL /home/dan/ECE368/FinalALU/FinalBehavior.vhd 2016/02/16.22:09:19 P.20131013
+FL /home/dan/ECE368/FinalALU/FinalBehavior.vhd 2016/02/16.23:25:08 P.20131013
+EN work/FinalBehavior 1455683160 FL /home/dan/ECE368/FinalALU/FinalBehavior.vhd \
+      PB ieee/std_logic_1164 1381692176 LB work
+AR work/FinalBehavior/Behavioral 1455683161 \
+      FL /home/dan/ECE368/FinalALU/FinalBehavior.vhd EN work/FinalBehavior 1455683160 \
+      CP work/ALU CP work/SSegDriver
+FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" 2016/02/16.21:57:26 P.20131013
+EN work/Arith_Unit 1455683146 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Arith_Unit/Combinational 1455683147 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" \
+      EN work/Arith_Unit 1455683146
+FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" 2016/02/16.21:57:26 P.20131013
+EN work/Logic_Unit 1455683148 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Logic_Unit/Combinational 1455683149 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" \
+      EN work/Logic_Unit 1455683148
+FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" 2016/02/16.21:57:26 P.20131013
+EN work/ALU_Mux 1455683154 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU_Mux/Combinational 1455683155 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" EN work/ALU_Mux 1455683154
+FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" 2016/02/16.21:57:26 P.20131013
+EN work/ALU_Shift_Unit 1455683150 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU_Shift_Unit/Combinational 1455683151 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" \
+      EN work/ALU_Shift_Unit 1455683150
+FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" 2016/02/16.21:57:26 P.20131013
+EN work/ALU 1455683156 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB work
+AR work/ALU/Structural 1455683157 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" EN work/ALU 1455683156 \
+      CP work/Arith_Unit CP work/Logic_Unit CP work/alu_shift_unit \
+      CP work/Load_Store_Unit CP work/ALU_Mux
+FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" 2016/02/16.21:57:26 P.20131013
+EN work/Load_Store_Unit 1455683152 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Load_Store_Unit/Behavioral 1455683153 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" \
+      EN work/Load_Store_Unit 1455683152
+FL "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" 2016/02/16.21:57:26 P.20131013
+EN work/SSegDriver 1455683158 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSegDriver/Behavioral 1455683159 \
+      FL "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
+      EN work/SSegDriver 1455683158

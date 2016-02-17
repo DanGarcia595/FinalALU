@@ -99,7 +99,7 @@ begin
 	 with switch select
         output_1 <=
             RA     	when '0',   
-            tmp2    when '1',
+            tmp2     when '1',
 				RA 		when others;
 				
 	with switch select

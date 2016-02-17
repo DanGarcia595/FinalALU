@@ -2,7 +2,7 @@
 Release 14.7 Trace  (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 4 -n
+/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 4 -n
 3 -fastpaths -xml FinalBehavior.twx FinalBehavior.ncd -o FinalBehavior.twr
 FinalBehavior.pcf
 
@@ -78,14 +78,14 @@ CLK            |    4.950|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Tue Feb 16 23:23:41 2016 
+Analysis completed Tue Feb 16 23:26:08 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 348 MB
+Peak Memory Usage: 349 MB
 
 
 
