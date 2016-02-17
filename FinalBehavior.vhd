@@ -59,6 +59,7 @@ begin
 	
 	switching: process (BTN(3), BTN(2),BTN(1))
 	begin
+	
 		if (BTN(3) = '1') then
 			switch <= '0';
 		end if;
