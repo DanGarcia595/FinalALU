@@ -1,11 +1,5 @@
 //! **************************************************************************
-<<<<<<< HEAD
-// Written by: Map P.20131013 on Fri Feb 12 18:08:33 2016
-//! **************************************************************************
-
-SCHEMATIC START;
-=======
-// Written by: Map P.20131013 on Fri Feb 12 16:51:03 2016
+// Written by: Map P.20131013 on Tue Feb 16 21:15:40 2016
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -34,7 +28,6 @@ COMP "SEG<5>" LOCATE = SITE "J17" LEVEL 1;
 COMP "CLK" LOCATE = SITE "B8" LEVEL 1;
 COMP "SEG<6>" LOCATE = SITE "H14" LEVEL 1;
 COMP "SW<0>" LOCATE = SITE "G18" LEVEL 1;
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
 SCHEMATIC END;
 

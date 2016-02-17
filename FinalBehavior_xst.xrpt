@@ -5,32 +5,13 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-<<<<<<< HEAD
-  <application stringID="Xst" timeStamp="Fri Feb 12 18:57:27 2016">
-=======
-  <application stringID="Xst" timeStamp="Fri Feb 12 16:54:01 2016">
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+  <application stringID="Xst" timeStamp="Tue Feb 16 21:46:07 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="XILINX_DSP"/>
-<<<<<<< HEAD
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE"/>
-        </row>
-        <row stringID="row" value="1">
-          <item stringID="variable" value="LD_LIBRARY_PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/lib/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64/lib:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/lib:/opt/Xilinx/14.7/ISE_DS/EDK/lib/lin64:/opt/Xilinx/14.7/ISE_DS/common/lib/lin64"/>
-        </row>
-        <row stringID="row" value="2">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/EDK"/>
-        </row>
-        <row stringID="row" value="3">
-          <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/util:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/bin:/opt/Xilinx/14.7/ISE_DS/ISE/../../../DocNav:/opt/Xilinx/14.7/ISE_DS/PlanAhead/bin:/opt/Xilinx/14.7/ISE_DS/EDK/bin/lin64:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"/>
-=======
           <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE"/>
         </row>
         <row stringID="row" value="1">
@@ -44,7 +25,6 @@
         <row stringID="row" value="3">
           <item stringID="variable" value="PATH"/>
           <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE//bin/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/sysgen/util:/opt/Xlinix/14.7/ISE_DS/ISE/sysgen/bin:/opt/Xlinix/14.7/ISE_DS/ISE/../../../DocNav:/opt/Xlinix/14.7/ISE_DS/PlanAhead/bin:/opt/Xlinix/14.7/ISE_DS/EDK/bin/lin64:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xlinix/14.7/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="XIL_IMPACT_USE_LIBUSB"/>
@@ -52,24 +32,6 @@
         </row>
         <row stringID="row" value="5">
           <item stringID="variable" value="LMC_HOME"/>
-<<<<<<< HEAD
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
-        </row>
-        <row stringID="row" value="6">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/PlanAhead"/>
-        </row>
-        <row stringID="row" value="7">
-          <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE/"/>
-        </row>
-      </table>
-      <item stringID="User_EnvOs" value="OS Information">
-        <item stringID="User_EnvOsname" value="Arch"/>
-        <item stringID="User_EnvOsrelease" value="Arch Linux"/>
-      </item>
-      <item stringID="User_EnvHost" value="arch"/>
-=======
           <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
         </row>
         <row stringID="row" value="6">
@@ -86,18 +48,12 @@
         <item stringID="User_EnvOsrelease" value="Ubuntu 15.04"/>
       </item>
       <item stringID="User_EnvHost" value="MasterNode"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-<<<<<<< HEAD
-          <item stringID="arch" value="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"/>
-          <item stringID="speed" value="3010.406 MHz"/>
-=======
           <item stringID="arch" value="Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz"/>
-          <item stringID="speed" value="3259.312 MHz"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+          <item stringID="speed" value="3099.093 MHz"/>
         </row>
       </table>
     </section>
@@ -144,11 +100,7 @@
       <item DEFAULT="NO" label="-async_to_sync" stringID="XST_ASYNCTOSYNC" value="NO"/>
       <item DEFAULT="AUTO" label="-mult_style" stringID="XST_MULTSTYLE" value="Auto"/>
       <item DEFAULT="YES" label="-iobuf" stringID="XST_IOBUF" value="YES"/>
-<<<<<<< HEAD
       <item DEFAULT="500" label="-max_fanout" stringID="XST_MAXFANOUT" value="100000"/>
-=======
-      <item DEFAULT="500" label="-max_fanout" stringID="XST_MAXFANOUT" value="500"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
       <item DEFAULT="24" label="-bufg" stringID="XST_BUFG" value="24"/>
       <item DEFAULT="YES" label="-register_duplication" stringID="XST_REGISTERDUPLICATION" value="YES"/>
       <item DEFAULT="NO" label="-register_balancing" stringID="XST_REGISTERBALANCING" value="No"/>
@@ -161,47 +113,10 @@
       <item DEFAULT="YES" label="-equivalent_register_removal" stringID="XST_EQUIVALENTREGISTERREMOVAL" value="YES"/>
       <item DEFAULT="0%" label="-slice_utilization_ratio_maxmargin" stringID="XST_SLICEUTILIZATIONRATIOMAXMARGIN" value="5"/>
     </section>
-<<<<<<< HEAD
     <section stringID="XST_ERRORS_STATISTICS">
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="1"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="0"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="0"/>
-=======
-    <section stringID="XST_HDL_SYNTHESIS_REPORT">
-      <item dataType="int" stringID="XST_ROMS" value="2">
-        <item dataType="int" stringID="XST_16X7BIT_ROM" value="1"/>
-      </item>
-      <item dataType="int" stringID="XST_COUNTERS" value="2">
-        <item dataType="int" stringID="XST_2BIT_UP_COUNTER" value="1"/>
-      </item>
-      <item dataType="int" stringID="XST_REGISTERS" value="6">
-        <item dataType="int" stringID="XST_1BIT_REGISTER" value="2"/>
-        <item dataType="int" stringID="XST_4BIT_REGISTER" value="2"/>
-        <item dataType="int" stringID="XST_8BIT_REGISTER" value="2"/>
-      </item>
-      <item dataType="int" stringID="XST_MULTIPLEXERS" value="2">
-        <item dataType="int" stringID="XST_1BIT_4TO1_MULTIPLEXER" value="1"/>
-      </item>
-    </section>
-    <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORT">
-      <item dataType="int" stringID="XST_ROMS" value="2">
-        <item dataType="int" stringID="XST_16X7BIT_ROM" value="1"/>
-      </item>
-      <item dataType="int" stringID="XST_COUNTERS" value="2">
-        <item dataType="int" stringID="XST_2BIT_UP_COUNTER" value="1"/>
-      </item>
-      <item dataType="int" stringID="XST_REGISTERS" value="26">
-        <item dataType="int" stringID="XST_FLIPFLOPS" value="26"/>
-      </item>
-      <item dataType="int" stringID="XST_MULTIPLEXERS" value="2">
-        <item dataType="int" stringID="XST_1BIT_4TO1_MULTIPLEXER" value="1"/>
-      </item>
-    </section>
-    <section stringID="XST_ERRORS_STATISTICS">
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="16"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="7"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="3"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
     </section>
   </application>
 

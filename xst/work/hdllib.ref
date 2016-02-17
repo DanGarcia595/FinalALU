@@ -1,30 +1,16 @@
-AR alu structural "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl11 1455309879
-AR arith_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl01 1455309869
-AR load_store_unit behavioral "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl07 1455309875
-<<<<<<< HEAD
-AR alu_mux combinational "/home/bobby/Lab 2/ALU/alu_mux.vhd" sub00/vhpl09 1455321448
-AR logic_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl03 1455309871
-EN finalbehavior NULL /home/bobby/FinalALU-master/FinalBehavior.vhd sub00/vhpl14 1455321451
-EN load_store_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl06 1455309874
-AR ssegdriver behavioral "/home/bobby/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl13 1455321450
-EN ssegdriver NULL "/home/bobby/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl12 1455321449
-=======
-AR alu_mux combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" sub00/vhpl09 1455309877
-AR logic_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl03 1455309871
-EN finalbehavior NULL /home/dan/ECE368/FinalALU/FinalBehavior.vhd sub00/vhpl14 1455314043
-EN load_store_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl06 1455309874
-AR ssegdriver behavioral "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl13 1455314042
-EN ssegdriver NULL "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl12 1455314041
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
-EN arith_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl00 1455309868
-EN logic_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl02 1455309870
-EN alu_shift_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl04 1455309872
-AR alu_shift_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl05 1455309873
-<<<<<<< HEAD
-AR finalbehavior behavioral /home/bobby/FinalALU-master/FinalBehavior.vhd sub00/vhpl15 1455318503
-EN alu_mux NULL "/home/bobby/Lab 2/ALU/alu_mux.vhd" sub00/vhpl08 1455321447
-=======
-AR finalbehavior behavioral /home/dan/ECE368/FinalALU/FinalBehavior.vhd sub00/vhpl15 1455314044
-EN alu_mux NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" sub00/vhpl08 1455309876
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
-EN alu NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl10 1455309878
+AR alu structural "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl15 1455677178
+AR arith_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl07 1455677168
+AR load_store_unit behavioral "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl13 1455677174
+AR alu_mux combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" sub00/vhpl01 1455677176
+EN finalbehavior NULL /home/dan/ECE368/FinalALU/FinalBehavior.vhd sub00/vhpl04 1455677181
+AR logic_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl09 1455677170
+EN load_store_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl12 1455677173
+AR ssegdriver behavioral "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl03 1455677180
+EN ssegdriver NULL "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl02 1455677179
+EN arith_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl06 1455677167
+EN logic_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl08 1455677169
+EN alu_shift_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl10 1455677171
+AR alu_shift_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl11 1455677172
+AR finalbehavior behavioral /home/dan/ECE368/FinalALU/FinalBehavior.vhd sub00/vhpl05 1455677182
+EN alu_mux NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" sub00/vhpl00 1455677175
+EN alu NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl14 1455677177

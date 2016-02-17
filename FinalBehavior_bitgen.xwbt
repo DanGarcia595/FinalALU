@@ -1,13 +1,4 @@
 INTSTYLE=ise
-<<<<<<< HEAD
-INFILE=/home/bobby/FinalALU-master/FinalBehavior.ncd
-OUTFILE=/home/bobby/FinalALU-master/FinalBehavior.bit
-FAMILY=Spartan3E
-PART=xc3s500e-4fg320
-WORKINGDIR=/home/bobby/FinalALU-master
-LICENSE=WebPack
-USER_INFO=__0_0_0
-=======
 INFILE=/home/dan/ECE368/FinalALU/FinalBehavior.ncd
 OUTFILE=/home/dan/ECE368/FinalALU/FinalBehavior.bit
 FAMILY=Spartan3E
@@ -15,4 +6,3 @@ PART=xc3s500e-4fg320
 WORKINGDIR=/home/dan/ECE368/FinalALU
 LICENSE=WebPack
 USER_INFO=211148512_0_0_117
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d

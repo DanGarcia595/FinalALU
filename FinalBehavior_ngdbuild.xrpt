@@ -5,32 +5,13 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-<<<<<<< HEAD
-  <application stringID="NgdBuild" timeStamp="Fri Feb 12 18:08:28 2016">
-=======
-  <application stringID="NgdBuild" timeStamp="Fri Feb 12 16:51:00 2016">
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+  <application stringID="NgdBuild" timeStamp="Tue Feb 16 21:14:43 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="XILINX_DSP"/>
-<<<<<<< HEAD
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE"/>
-        </row>
-        <row stringID="row" value="1">
-          <item stringID="variable" value="LD_LIBRARY_PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/lib/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64/lib:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/lib:/opt/Xilinx/14.7/ISE_DS/EDK/lib/lin64:/opt/Xilinx/14.7/ISE_DS/common/lib/lin64"/>
-        </row>
-        <row stringID="row" value="2">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/EDK"/>
-        </row>
-        <row stringID="row" value="3">
-          <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/util:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/bin:/opt/Xilinx/14.7/ISE_DS/ISE/../../../DocNav:/opt/Xilinx/14.7/ISE_DS/PlanAhead/bin:/opt/Xilinx/14.7/ISE_DS/EDK/bin/lin64:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"/>
-=======
           <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE"/>
         </row>
         <row stringID="row" value="1">
@@ -44,7 +25,6 @@
         <row stringID="row" value="3">
           <item stringID="variable" value="PATH"/>
           <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE//bin/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64:/opt/Xlinix/14.7/ISE_DS/ISE/sysgen/util:/opt/Xlinix/14.7/ISE_DS/ISE/sysgen/bin:/opt/Xlinix/14.7/ISE_DS/ISE/../../../DocNav:/opt/Xlinix/14.7/ISE_DS/PlanAhead/bin:/opt/Xlinix/14.7/ISE_DS/EDK/bin/lin64:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xlinix/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xlinix/14.7/ISE_DS/common/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
         </row>
         <row stringID="row" value="4">
           <item stringID="variable" value="XIL_IMPACT_USE_LIBUSB"/>
@@ -52,24 +32,6 @@
         </row>
         <row stringID="row" value="5">
           <item stringID="variable" value="LMC_HOME"/>
-<<<<<<< HEAD
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
-        </row>
-        <row stringID="row" value="6">
-          <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/PlanAhead"/>
-        </row>
-        <row stringID="row" value="7">
-          <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE/"/>
-        </row>
-      </table>
-      <item stringID="User_EnvOs" value="OS Information">
-        <item stringID="User_EnvOsname" value="Arch"/>
-        <item stringID="User_EnvOsrelease" value="Arch Linux"/>
-      </item>
-      <item stringID="User_EnvHost" value="arch"/>
-=======
           <item stringID="value" value="/opt/Xlinix/14.7/ISE_DS/ISE/smartmodel/lin64/installed_lin64"/>
         </row>
         <row stringID="row" value="6">
@@ -86,18 +48,12 @@
         <item stringID="User_EnvOsrelease" value="Ubuntu 15.04"/>
       </item>
       <item stringID="User_EnvHost" value="MasterNode"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-<<<<<<< HEAD
-          <item stringID="arch" value="Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz"/>
-          <item stringID="speed" value="2888.906 MHz"/>
-=======
           <item stringID="arch" value="Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz"/>
-          <item stringID="speed" value="3262.687 MHz"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+          <item stringID="speed" value="3330.468 MHz"/>
         </row>
       </table>
     </section>
@@ -106,10 +62,7 @@
         <item DEFAULT="None" label="-intstyle" stringID="NGDBUILD_intstyle" value="ise"/>
         <item DEFAULT="None" label="-dd" stringID="NGDBUILD_output_dir" value="_ngo"/>
         <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc3s500e-fg320-4"/>
-<<<<<<< HEAD
-=======
         <item DEFAULT="None" label="-uc" stringID="NGDBUILD_ucf_file" value="/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg_toplevel.ucf"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
       </section>
     </task>
     <task stringID="NGDBUILD_REPORT">
@@ -144,11 +97,7 @@
         <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="18"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDE" value="16"/>
         <item dataType="int" stringID="NGDBUILD_NUM_GND" value="1"/>
-<<<<<<< HEAD
-        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="11"/>
-=======
         <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="12"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
         <item dataType="int" stringID="NGDBUILD_NUM_IBUFG" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_INV" value="4"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="16"/>

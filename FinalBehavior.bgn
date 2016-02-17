@@ -1,24 +1,14 @@
 Release 14.7 - Bitgen P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Loading device for application Rf_Device from file '3s500e.nph' in environment
-<<<<<<< HEAD
-/opt/Xilinx/14.7/ISE_DS/ISE/.
-=======
 /opt/Xlinix/14.7/ISE_DS/ISE/.
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
    "FinalBehavior" is an NCD, version 3.2, device xc3s500e, package fg320, speed
 -4
 Opened constraints file FinalBehavior.pcf.
 
-<<<<<<< HEAD
-Fri Feb 12 18:08:48 2016
+Tue Feb 16 21:15:56 2016
 
-/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:1 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No FinalBehavior.ncd 
-=======
-Fri Feb 12 16:51:23 2016
-
-/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:1 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No FinalBehavior.ncd 
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:1 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No FinalBehavior.ncd 
 
 Summary of Bitgen Options:
 +----------------------+----------------------+
@@ -64,11 +54,7 @@ Summary of Bitgen Options:
 +----------------------+----------------------+
 | DriveDone            | No**                 |
 +----------------------+----------------------+
-<<<<<<< HEAD
 | DonePipe             | Yes                  |
-=======
-| DonePipe             | No**                 |
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 +----------------------+----------------------+
 | Security             | None**               |
 +----------------------+----------------------+
@@ -105,14 +91,10 @@ There were 0 CONFIG constraint(s) processed from FinalBehavior.pcf.
 
 
 Running DRC.
-<<<<<<< HEAD
-DRC detected 0 errors and 0 warnings.
-=======
 WARNING:PhysDesignRules:367 - The signal <BTN<1>_IBUF> is incomplete. The signal
    does not drive any load pins in the design.
 DRC detected 0 errors and 1 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 Creating bit map...
 Saving bit stream in "FinalBehavior.bit".
 Bitstream generation is complete.

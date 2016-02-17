@@ -18,9 +18,5 @@
 -g GWE_cycle:6
 -g LCK_cycle:NoWait
 -g Security:None
-<<<<<<< HEAD
 -g DonePipe:Yes
-=======
--g DonePipe:No
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 -g DriveDone:No

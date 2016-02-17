@@ -1,16 +1,6 @@
 Release 14.7 ngdbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-<<<<<<< HEAD
-Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
-ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FinalBehavior.ngc
-FinalBehavior.ngd
-
-Reading NGO file "/home/bobby/FinalALU-master/FinalBehavior.ngc" ...
-Gathering constraint information from source properties...
-Done.
-
-=======
 Command Line: /opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
 ise -dd _ngo -nt timestamp -uc /home/dan/ECE368-Lab/Lab
 2/SevenSegmentDisplay/SevenSeg_toplevel.ucf -p xc3s500e-fg320-4
@@ -22,7 +12,6 @@ Done.
 
 Annotating constraints to design from ucf file "/home/dan/ECE368-Lab/Lab
 2/SevenSegmentDisplay/SevenSeg_toplevel.ucf" ...
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 Resolving constraint associations...
 Checking Constraint Associations...
 Done...
@@ -40,18 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-<<<<<<< HEAD
-Total memory usage is 388752 kilobytes
+Total memory usage is 394568 kilobytes
 
 Writing NGD file "FinalBehavior.ngd" ...
 Total REAL time to NGDBUILD completion:  2 sec
 Total CPU time to NGDBUILD completion:   2 sec
-=======
-Total memory usage is 394572 kilobytes
-
-Writing NGD file "FinalBehavior.ngd" ...
-Total REAL time to NGDBUILD completion:  2 sec
-Total CPU time to NGDBUILD completion:   1 sec
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 
 Writing NGDBUILD log file "FinalBehavior.bld"...

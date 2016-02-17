@@ -5,11 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<<<<<<< HEAD
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">BTN&lt;1&gt;</arg> has no load.
-=======
-<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">BTN&lt;1&gt;_IBUF</arg> has no load.
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">BTN&lt;1&gt;_IBUF</arg> has no load.
 </msg>
 
 <msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
@@ -18,11 +14,8 @@
 <msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
 </msg>
 
-<<<<<<< HEAD
-=======
-<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">BTN&lt;1&gt;_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">BTN&lt;1&gt;_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 </messages>
 

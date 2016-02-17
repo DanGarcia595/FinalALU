@@ -8,11 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<<<<<<< HEAD
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/bobby/FinalALU-master/FinalBehavior.vhd&quot; into library work</arg>
-=======
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/dan/ECE368/FinalALU/FinalBehavior.vhd&quot; into library work</arg>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 </msg>
 
 </messages>

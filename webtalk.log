@@ -4,24 +4,13 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Project Information
 --------------------
 ProjectID=4B41AE8535A387ED52C4B20A1A7CC1A5
-<<<<<<< HEAD
-ProjectIteration=7
-=======
-ProjectIteration=6
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+ProjectIteration=1
 
 WebTalk Summary
 ----------------
 INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
 
-<<<<<<< HEAD
-INFO:WebTalk:9 - WebTalk Install setting is OFF.
-INFO:WebTalk:6 - WebTalk User setting is ON.
-
-INFO:WebTalk:5 - /home/bobby/FinalALU-master/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
-=======
 INFO:WebTalk:8 - WebTalk Install setting is ON.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
 INFO:WebTalk:5 - /home/dan/ECE368/FinalALU/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at /opt/Xlinix/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d

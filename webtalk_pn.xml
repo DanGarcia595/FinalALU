@@ -3,26 +3,15 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<<<<<<< HEAD
-<application name="pn" timeStamp="Fri Feb 12 18:57:25 2016">
+<application name="pn" timeStamp="Tue Feb 16 21:46:05 2016">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="4B41AE8535A387ED52C4B20A1A7CC1A5" type="project"/>
-<property name="ProjectIteration" value="7" type="project"/>
-<property name="ProjectFile" value="/home/bobby/FinalALU-master/FinalALU.xise" type="project"/>
-<property name="ProjectCreationTimestamp" value="2016-02-12T15:39:38" type="project"/>
-</section>
-<section name="Project Statistics" visible="true">
-<property name="PROPEXT_xilxSynthMaxFanout_virtex2" value="100000" type="process"/>
-=======
-<application name="pn" timeStamp="Fri Feb 12 16:53:59 2016">
-<section name="Project Information" visible="false">
-<property name="ProjectID" value="4B41AE8535A387ED52C4B20A1A7CC1A5" type="project"/>
-<property name="ProjectIteration" value="6" type="project"/>
+<property name="ProjectIteration" value="1" type="project"/>
 <property name="ProjectFile" value="/home/dan/ECE368/FinalALU/FinalALU.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2016-02-12T15:39:38" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
+<property name="PROPEXT_xilxSynthMaxFanout_virtex2" value="100000" type="process"/>
 <property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
 <property name="PROP_FitterReportFormat" value="HTML" type="process"/>
 <property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
@@ -36,16 +25,10 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2016-02-12T15:39:38" type="design"/>
 <property name="PROP_intWbtProjectID" value="4B41AE8535A387ED52C4B20A1A7CC1A5" type="design"/>
-<<<<<<< HEAD
-<property name="PROP_intWbtProjectIteration" value="7" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="1" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
-=======
-<property name="PROP_intWbtProjectIteration" value="6" type="process"/>
-<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
-<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
->>>>>>> 630b3c809d841df307fd43bf506cad21e555d16d
 <property name="PROP_AutoTop" value="false" type="design"/>
 <property name="PROP_DevFamily" value="Spartan3E" type="design"/>
 <property name="PROP_DevDevice" value="xc3s500e" type="design"/>
