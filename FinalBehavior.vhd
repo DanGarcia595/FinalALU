@@ -35,7 +35,8 @@ entity FinalBehavior is
 			BTN : in  STD_LOGIC_VECTOR (3 downto 0);
 			SEG : out STD_LOGIC_VECTOR (6 downto 0);
 			DP  : out STD_LOGIC;
-			AN  : out STD_LOGIC_VECTOR (3 downto 0)
+			AN  : out STD_LOGIC_VECTOR (3 downto 0);
+			LED : out STD_LOGIC_VECTOR (7 downto 0)
 	 );
 end FinalBehavior;
 
@@ -56,7 +57,7 @@ architecture Behavioral of FinalBehavior is
 	 signal switch: STD_LOGIC := '0';
 	 
 begin
-	
+	LED(7 downto 4) <= tmp;
 	switching: process (BTN(3), BTN(2),BTN(1))
 	begin
 	
@@ -113,7 +114,7 @@ begin
            RA     	=> RA,
            RB    		=> RB,
            OPCODE    => op,
-           CCR    	=> tmp,
+           CCR    	=> LED(3 downto 0),
            ALU_OUT   =>	rslt,
            LDST_OUT  => tmp2
 				);

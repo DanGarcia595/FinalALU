@@ -30,6 +30,7 @@ NET "BTN<0>" LOC = B18;
 NET "BTN<1>" LOC = D18;
 NET "BTN<2>" LOC = E18;
 NET "BTN<3>" LOC = H13;
+NET "BTN<3>" CLOCK_DEDICATED_ROUTE = FALSE;
 
 ##7 Segment Display
 Net "SEG<0>" LOC = L18;
@@ -44,3 +45,15 @@ Net "AN<0>"  LOC = F17;
 Net "AN<1>"  LOC = H17;
 Net "AN<2>"  LOC = C18;
 Net "AN<3>"  LOC = F15;
+
+#LED Assignment
+NET "LED<0>" LOC = J14;
+NET "LED<1>" LOC = J15;
+NET "LED<2>" LOC = K15;
+NET "LED<3>" LOC = K14;
+NET "LED<4>" LOC = E17;
+NET "LED<5>" LOC = P15;
+NET "LED<6>" LOC = F4;
+NET "LED<7>" LOC = R4;
+
+

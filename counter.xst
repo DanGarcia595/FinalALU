@@ -1,0 +1,5 @@
+set -tmpdir "/home/bobby/DigitalDesign/FinalALU/xst/projnav.tmp"
+set -xsthdpdir "/home/bobby/DigitalDesign/FinalALU/xst"
+elaborate
+-ifn counter.prj
+-ifmt mixed

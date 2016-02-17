@@ -107,21 +107,21 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" in Library work.
 Architecture combinational of Entity arith_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" in Library work.
 Architecture combinational of Entity logic_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" in Library work.
 Architecture combinational of Entity alu_shift_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd" in Library work.
 Architecture behavioral of Entity load_store_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd" in Library work.
 Architecture combinational of Entity alu_mux is up to date.
-Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd" in Library work.
 Architecture structural of Entity alu is up to date.
-Compiling vhdl file "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
 Architecture behavioral of Entity ssegdriver is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/FinalBehavior.vhd" in Library work.
+Compiling vhdl file "/home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd" in Library work.
 Entity <finalbehavior> compiled.
 Entity <finalbehavior> (Architecture <behavioral>) compiled.
 
@@ -170,9 +170,9 @@ Analyzing Entity <ALU_Mux> in library <work> (Architecture <Combinational>).
 Entity <ALU_Mux> analyzed. Unit <ALU_Mux> generated.
 
 Analyzing Entity <SSegDriver> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <clk240hz>
-INFO:Xst:1561 - "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 120: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 120: Mux is complete : default of case is discarded
 Entity <SSegDriver> analyzed. Unit <SSegDriver> generated.
 
 
@@ -183,7 +183,7 @@ Entity <SSegDriver> analyzed. Unit <SSegDriver> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <SSegDriver>.
-    Related source file is "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd".
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd".
 WARNING:Xst:647 - Input <COL_EN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16x7-bit ROM for signal <segnum>.
     Found 4x4-bit ROM for signal <AN_OUT$mux0001> created at line 104.
@@ -204,7 +204,7 @@ Unit <SSegDriver> synthesized.
 
 
 Synthesizing Unit <Arith_Unit>.
-    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd".
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd".
     Found 1-bit xor2 for signal <CCR<1>>.
     Found 9-bit addsub for signal <arith>.
     Summary:
@@ -213,7 +213,7 @@ Unit <Arith_Unit> synthesized.
 
 
 Synthesizing Unit <Logic_Unit>.
-    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd".
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd".
 WARNING:Xst:653 - Signal <cmp<1:0>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
     Found 8-bit comparator equal for signal <cmp_2$cmp_eq0000> created at line 42.
     Found 8-bit comparator less for signal <cmp_3$cmp_lt0000> created at line 41.
@@ -223,7 +223,7 @@ Unit <Logic_Unit> synthesized.
 
 
 Synthesizing Unit <ALU_Shift_Unit>.
-    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd".
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd".
     Found 8-bit shifter logical left for signal <shift_left>.
     Found 8-bit shifter logical right for signal <shift_right>.
     Summary:
@@ -232,7 +232,7 @@ Unit <ALU_Shift_Unit> synthesized.
 
 
 Synthesizing Unit <Load_Store_Unit>.
-    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd".
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd".
 WARNING:Xst:647 - Input <IMMED> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit register for signal <reg>.
     Summary:
@@ -241,18 +241,18 @@ Unit <Load_Store_Unit> synthesized.
 
 
 Synthesizing Unit <ALU_Mux>.
-    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd".
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd".
 Unit <ALU_Mux> synthesized.
 
 
 Synthesizing Unit <ALU>.
-    Related source file is "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd".
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd".
 Unit <ALU> synthesized.
 
 
 Synthesizing Unit <FinalBehavior>.
-    Related source file is "/home/dan/ECE368/FinalALU/FinalBehavior.vhd".
-WARNING:Xst:646 - Signal <tmp> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Related source file is "/home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd".
+WARNING:Xst:653 - Signal <tmp> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
 WARNING:Xst:1780 - Signal <s3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <enl> is used but never assigned. This sourceless signal will be automatically connected to value 1.
 WARNING:Xst:653 - Signal <dpc> is used but never assigned. This sourceless signal will be automatically connected to value 1111.
@@ -383,20 +383,20 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 25
+# IOs                              : 33
 
 Cell Usage :
-# BELS                             : 246
+# BELS                             : 283
 #      GND                         : 1
 #      INV                         : 4
 #      LUT1                        : 16
-#      LUT2                        : 30
+#      LUT2                        : 36
 #      LUT3                        : 49
-#      LUT4                        : 78
-#      MUXCY                       : 28
-#      MUXF5                       : 14
+#      LUT4                        : 98
+#      MUXCY                       : 37
+#      MUXF5                       : 15
 #      VCC                         : 1
-#      XORCY                       : 25
+#      XORCY                       : 26
 # FlipFlops/Latches                : 57
 #      FDC                         : 10
 #      FDCE                        : 18
@@ -405,9 +405,9 @@ Cell Usage :
 # Clock Buffers                    : 2
 #      BUFG                        : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 24
+# IO Buffers                       : 32
 #      IBUF                        : 12
-#      OBUF                        : 12
+#      OBUF                        : 20
 =========================================================================
 
 Device utilization summary:
@@ -415,11 +415,11 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      100  out of   4656     2%  
+ Number of Slices:                      114  out of   4656     2%  
  Number of Slice Flip Flops:             57  out of   9312     0%  
- Number of 4 input LUTs:                177  out of   9312     1%  
- Number of IOs:                          25
- Number of bonded IOBs:                  25  out of    232    10%  
+ Number of 4 input LUTs:                203  out of   9312     2%  
+ Number of IOs:                          33
+ Number of bonded IOBs:                  33  out of    232    14%  
  Number of GCLKs:                         2  out of     24     8%  
 
 ---------------------------
@@ -465,7 +465,7 @@ Speed Grade: -4
 
    Minimum period: 5.522ns (Maximum Frequency: 181.094MHz)
    Minimum input arrival time before clock: 2.593ns
-   Maximum output required time after clock: 5.870ns
+   Maximum output required time after clock: 11.940ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -488,8 +488,8 @@ Delay:               3.099ns (Levels of Logic = 2)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q             14   0.591   1.175  SSeg/pos_0 (SSeg/pos_0)
-     LUT3:I0->O            1   0.704   0.000  SSeg/Mmux_hexnum_mux0001_3 (SSeg/Mmux_hexnum_mux0001_3)
-     MUXF5:I1->O           1   0.321   0.000  SSeg/Mmux_hexnum_mux0001_2_f5 (SSeg/hexnum_mux0001<0>)
+     LUT3:I0->O            1   0.704   0.000  SSeg/Mmux_hexnum_mux0001_4 (SSeg/Mmux_hexnum_mux0001_4)
+     MUXF5:I0->O           1   0.321   0.000  SSeg/Mmux_hexnum_mux0001_2_f5 (SSeg/hexnum_mux0001<0>)
      FDC:D                     0.308          SSeg/hexnum_0
     ----------------------------------------
     Total                      3.099ns (1.924ns logic, 1.175ns route)
@@ -574,15 +574,46 @@ Offset:              5.870ns (Levels of Logic = 2)
                                        (77.8% logic, 22.2% route)
 
 =========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 504 / 4
+-------------------------------------------------------------------------
+Offset:              11.940ns (Levels of Logic = 13)
+  Source:            op_2 (FF)
+  Destination:       LED<2> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: op_2 to LED<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             18   0.591   1.147  op_2 (op_2)
+     LUT3:I1->O            9   0.704   0.855  ALU/ALU_Mux/CCR_OUT_cmp_eq00011 (ALU/ALU_Mux/CCR_OUT_cmp_eq0001)
+     LUT3:I2->O            1   0.704   0.000  ALU/Arith_Unit/Maddsub_arith_lut<0> (ALU/Arith_Unit/Maddsub_arith_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  ALU/Arith_Unit/Maddsub_arith_cy<0> (ALU/Arith_Unit/Maddsub_arith_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  ALU/Arith_Unit/Maddsub_arith_cy<1> (ALU/Arith_Unit/Maddsub_arith_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  ALU/Arith_Unit/Maddsub_arith_cy<2> (ALU/Arith_Unit/Maddsub_arith_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  ALU/Arith_Unit/Maddsub_arith_cy<3> (ALU/Arith_Unit/Maddsub_arith_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  ALU/Arith_Unit/Maddsub_arith_cy<4> (ALU/Arith_Unit/Maddsub_arith_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  ALU/Arith_Unit/Maddsub_arith_cy<5> (ALU/Arith_Unit/Maddsub_arith_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  ALU/Arith_Unit/Maddsub_arith_cy<6> (ALU/Arith_Unit/Maddsub_arith_cy<6>)
+     XORCY:CI->O           4   0.804   0.762  ALU/Arith_Unit/Maddsub_arith_xor<7> (ALU/arith<7>)
+     LUT4:I0->O            1   0.704   0.455  ALU/ALU_Mux/CCR_OUT<2>181 (ALU/ALU_Mux/CCR_OUT<2>181)
+     LUT3:I2->O            1   0.704   0.420  ALU/ALU_Mux/CCR_OUT<2>196 (LED_2_OBUF)
+     OBUF:I->O                 3.272          LED_2_OBUF (LED<2>)
+    ----------------------------------------
+    Total                     11.940ns (8.301ns logic, 3.639ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.05 secs
  
 --> 
 
 
-Total memory usage is 522368 kilobytes
+Total memory usage is 517488 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   11 (   0 filtered)

@@ -1,16 +1,16 @@
-AR alu structural "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl15 1455678575
-AR arith_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl07 1455678565
-AR load_store_unit behavioral "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl13 1455678571
-AR alu_mux combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" sub00/vhpl01 1455678573
-EN finalbehavior NULL /home/dan/ECE368/FinalALU/FinalBehavior.vhd sub00/vhpl04 1455678578
-AR logic_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl09 1455678567
-EN load_store_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl12 1455678570
-AR ssegdriver behavioral "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl03 1455678577
-EN ssegdriver NULL "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl02 1455678576
-EN arith_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl06 1455678564
-EN logic_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl08 1455678566
-EN alu_shift_unit NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl10 1455678568
-AR alu_shift_unit combinational "/home/dan/ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl11 1455678569
-AR finalbehavior behavioral /home/dan/ECE368/FinalALU/FinalBehavior.vhd sub00/vhpl05 1455678579
-EN alu_mux NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_mux.vhd" sub00/vhpl00 1455678572
-EN alu NULL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl14 1455678574
+AR alu structural "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl15 1455683011
+AR arith_unit combinational "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl07 1455683001
+AR load_store_unit behavioral "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl13 1455683007
+AR alu_mux combinational "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd" sub00/vhpl01 1455683009
+EN finalbehavior NULL /home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd sub00/vhpl04 1455683014
+AR logic_unit combinational "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl09 1455683003
+EN load_store_unit NULL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/load_store_unit.vhd" sub00/vhpl12 1455683006
+AR ssegdriver behavioral "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl03 1455683013
+EN ssegdriver NULL "/home/bobby/DigitalDesign/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" sub00/vhpl02 1455683012
+EN arith_unit NULL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" sub00/vhpl06 1455683000
+EN logic_unit NULL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" sub00/vhpl08 1455683002
+EN alu_shift_unit NULL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl10 1455683004
+AR alu_shift_unit combinational "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" sub00/vhpl11 1455683005
+AR finalbehavior behavioral /home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd sub00/vhpl05 1455683015
+EN alu_mux NULL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_mux.vhd" sub00/vhpl00 1455683008
+EN alu NULL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_toplevel.vhd" sub00/vhpl14 1455683010

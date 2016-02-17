@@ -15,25 +15,25 @@
   <version xil_pn:ise_version="14.7" xil_pn:schema_version="2"/>
 
   <files>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/ALU/alu_logic_unit.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/ALU/alu_logic_unit.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/ALU/alu_tb.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/ALU/alu_tb.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="5"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="5"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="5"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/ALU/load_store_unit.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="7"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/Button/debounce.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/Button/debounce.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="8"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/SevenSegmentDisplay/SevenSeg.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="10"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="6"/>
     </file>
@@ -41,34 +41,34 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="13"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="8"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg_toplevel.ucf" xil_pn:type="FILE_UCF">
+    <file xil_pn:name="Lab 2/SevenSegmentDisplay/SevenSeg_toplevel.ucf" xil_pn:type="FILE_UCF">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/ALU/alu_arithmetic_unit.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/ALU/alu_arithmetic_unit.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="53"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/ALU/alu_mux.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/ALU/alu_mux.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="54"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/ALU/alu_shift_unit.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/ALU/alu_shift_unit.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="55"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/Button/button_controller.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/Button/button_controller.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="58"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/ALU/alu_toplevel.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="59"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/Counter/counter.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/Counter/counter.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="60"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="../../ECE368-Lab/Lab 2/Counter/counter_toplevel.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="Lab 2/Counter/counter_toplevel.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="61"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
@@ -377,7 +377,7 @@
   </properties>
 
   <bindings>
-    <binding xil_pn:location="/FinalBehavior" xil_pn:name="../../ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg_toplevel.ucf"/>
+    <binding xil_pn:location="/FinalBehavior" xil_pn:name="Lab 2/SevenSegmentDisplay/SevenSeg_toplevel.ucf"/>
   </bindings>
 
   <libraries/>
