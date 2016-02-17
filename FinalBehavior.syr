@@ -1,21 +1,18 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.13 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.14 secs
  
---> 
-Reading design: FinalBehavior.prj
+--> Reading design: FinalBehavior.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -107,21 +104,25 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/debounce.vhd" in Library work.
+Architecture logic of Entity debounce is up to date.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_arithmetic_unit.vhd" in Library work.
 Architecture combinational of Entity arith_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_logic_unit.vhd" in Library work.
 Architecture combinational of Entity logic_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_shift_unit.vhd" in Library work.
 Architecture combinational of Entity alu_shift_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/load_store_unit.vhd" in Library work.
 Architecture behavioral of Entity load_store_unit is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_mux.vhd" in Library work.
 Architecture combinational of Entity alu_mux is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_toplevel.vhd" in Library work.
 Architecture structural of Entity alu is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" in Library work.
 Architecture behavioral of Entity ssegdriver is up to date.
-Compiling vhdl file "/home/dan/ECE368/FinalALU/FinalBehavior.vhd" in Library work.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/button_controller.vhd" in Library work.
+Architecture structural of Entity buttoncontrol is up to date.
+Compiling vhdl file "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/FinalBehavior.vhd" in Library work.
 Entity <finalbehavior> compiled.
 Entity <finalbehavior> (Architecture <behavioral>) compiled.
 
@@ -134,6 +135,8 @@ Analyzing hierarchy for entity <ALU> in library <work> (architecture <Structural
 
 Analyzing hierarchy for entity <SSegDriver> in library <work> (architecture <Behavioral>).
 
+Analyzing hierarchy for entity <buttoncontrol> in library <work> (architecture <Structural>).
+
 Analyzing hierarchy for entity <Arith_Unit> in library <work> (architecture <Combinational>).
 
 Analyzing hierarchy for entity <Logic_Unit> in library <work> (architecture <Combinational>).
@@ -144,11 +147,16 @@ Analyzing hierarchy for entity <Load_Store_Unit> in library <work> (architecture
 
 Analyzing hierarchy for entity <ALU_Mux> in library <work> (architecture <Combinational>).
 
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <Logic>) with generics.
+	wait_time = 20
+
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <FinalBehavior> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/FinalBehavior.vhd" line 64: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <flag>
 Entity <FinalBehavior> analyzed. Unit <FinalBehavior> generated.
 
 Analyzing Entity <ALU> in library <work> (Architecture <Structural>).
@@ -170,10 +178,17 @@ Analyzing Entity <ALU_Mux> in library <work> (Architecture <Combinational>).
 Entity <ALU_Mux> analyzed. Unit <ALU_Mux> generated.
 
 Analyzing Entity <SSegDriver> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <clk240hz>
-INFO:Xst:1561 - "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 120: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" line 120: Mux is complete : default of case is discarded
 Entity <SSegDriver> analyzed. Unit <SSegDriver> generated.
+
+Analyzing Entity <buttoncontrol> in library <work> (Architecture <Structural>).
+Entity <buttoncontrol> analyzed. Unit <buttoncontrol> generated.
+
+Analyzing generic Entity <debounce> in library <work> (Architecture <Logic>).
+	wait_time = 20
+Entity <debounce> analyzed. Unit <debounce> generated.
 
 
 =========================================================================
@@ -183,7 +198,7 @@ Entity <SSegDriver> analyzed. Unit <SSegDriver> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <SSegDriver>.
-    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/SevenSegmentDisplay/SevenSeg.vhd".
 WARNING:Xst:647 - Input <COL_EN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16x7-bit ROM for signal <segnum>.
     Found 4x4-bit ROM for signal <AN_OUT$mux0001> created at line 104.
@@ -204,7 +219,7 @@ Unit <SSegDriver> synthesized.
 
 
 Synthesizing Unit <Arith_Unit>.
-    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_arithmetic_unit.vhd".
     Found 1-bit xor2 for signal <CCR<1>>.
     Found 9-bit addsub for signal <arith>.
     Summary:
@@ -213,7 +228,7 @@ Unit <Arith_Unit> synthesized.
 
 
 Synthesizing Unit <Logic_Unit>.
-    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_logic_unit.vhd".
 WARNING:Xst:653 - Signal <cmp<1:0>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
     Found 8-bit comparator equal for signal <cmp_2$cmp_eq0000> created at line 42.
     Found 8-bit comparator less for signal <cmp_3$cmp_lt0000> created at line 41.
@@ -223,7 +238,7 @@ Unit <Logic_Unit> synthesized.
 
 
 Synthesizing Unit <ALU_Shift_Unit>.
-    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_shift_unit.vhd".
     Found 8-bit shifter logical left for signal <shift_left>.
     Found 8-bit shifter logical right for signal <shift_right>.
     Summary:
@@ -232,7 +247,7 @@ Unit <ALU_Shift_Unit> synthesized.
 
 
 Synthesizing Unit <Load_Store_Unit>.
-    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/load_store_unit.vhd".
 WARNING:Xst:647 - Input <IMMED> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit register for signal <reg>.
     Summary:
@@ -241,26 +256,45 @@ Unit <Load_Store_Unit> synthesized.
 
 
 Synthesizing Unit <ALU_Mux>.
-    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_mux.vhd".
 Unit <ALU_Mux> synthesized.
 
 
+Synthesizing Unit <debounce>.
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/debounce.vhd".
+    Found 1-bit register for signal <OUTPUT>.
+    Found 21-bit up counter for signal <Count>.
+    Found 1-bit xor2 for signal <D_SET>.
+    Found 2-bit register for signal <D_STATE>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   3 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+
 Synthesizing Unit <ALU>.
-    Related source file is "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_toplevel.vhd".
 Unit <ALU> synthesized.
 
 
+Synthesizing Unit <buttoncontrol>.
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/button_controller.vhd".
+Unit <buttoncontrol> synthesized.
+
+
 Synthesizing Unit <FinalBehavior>.
-    Related source file is "/home/dan/ECE368/FinalALU/FinalBehavior.vhd".
+    Related source file is "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/FinalBehavior.vhd".
+WARNING:Xst:646 - Signal <tmp2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <tmp> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
 WARNING:Xst:1780 - Signal <s3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:653 - Signal <enl> is used but never assigned. This sourceless signal will be automatically connected to value 1.
 WARNING:Xst:653 - Signal <dpc> is used but never assigned. This sourceless signal will be automatically connected to value 1111.
 WARNING:Xst:653 - Signal <cen> is used but never assigned. This sourceless signal will be automatically connected to value 0.
-WARNING:Xst:737 - Found 1-bit latch for signal <switch>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <flag>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Found 4-bit register for signal <op>.
     Found 8-bit register for signal <RA>.
     Found 8-bit register for signal <RB>.
+    Found 1-bit register for signal <switch>.
     Summary:
 	inferred  20 D-type flip-flop(s).
 Unit <FinalBehavior> synthesized.
@@ -276,11 +310,12 @@ Macro Statistics
  4x4-bit ROM                                           : 1
 # Adders/Subtractors                                   : 1
  9-bit addsub                                          : 1
-# Counters                                             : 2
+# Counters                                             : 6
  17-bit up counter                                     : 1
  2-bit up counter                                      : 1
-# Registers                                            : 8
- 1-bit register                                        : 2
+ 21-bit up counter                                     : 4
+# Registers                                            : 21
+ 1-bit register                                        : 15
  4-bit register                                        : 3
  8-bit register                                        : 3
 # Latches                                              : 1
@@ -294,8 +329,8 @@ Macro Statistics
 # Logic shifters                                       : 2
  8-bit shifter logical left                            : 1
  8-bit shifter logical right                           : 1
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
 
 =========================================================================
 
@@ -313,11 +348,12 @@ Macro Statistics
  4x4-bit ROM                                           : 1
 # Adders/Subtractors                                   : 1
  9-bit addsub                                          : 1
-# Counters                                             : 2
+# Counters                                             : 6
  17-bit up counter                                     : 1
  2-bit up counter                                      : 1
-# Registers                                            : 38
- Flip-Flops                                            : 38
+ 21-bit up counter                                     : 4
+# Registers                                            : 51
+ Flip-Flops                                            : 51
 # Latches                                              : 1
  1-bit latch                                           : 1
 # Comparators                                          : 2
@@ -329,8 +365,8 @@ Macro Statistics
 # Logic shifters                                       : 2
  8-bit shifter logical left                            : 1
  8-bit shifter logical right                           : 1
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
 
 =========================================================================
 
@@ -345,9 +381,11 @@ Optimizing unit <SSegDriver> ...
 
 Optimizing unit <Load_Store_Unit> ...
 
+Optimizing unit <debounce> ...
+
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block FinalBehavior, actual ratio is 2.
+Found area constraint ratio of 100 (+ 5) on block FinalBehavior, actual ratio is 3.
 
 Final Macro Processing ...
 
@@ -355,8 +393,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 56
- Flip-Flops                                            : 56
+# Registers                                            : 153
+ Flip-Flops                                            : 153
 
 =========================================================================
 
@@ -385,22 +423,24 @@ Design Statistics
 # IOs                              : 33
 
 Cell Usage :
-# BELS                             : 283
+# BELS                             : 533
 #      GND                         : 1
-#      INV                         : 4
-#      LUT1                        : 16
-#      LUT2                        : 36
-#      LUT3                        : 49
-#      LUT4                        : 98
-#      MUXCY                       : 37
-#      MUXF5                       : 15
+#      INV                         : 13
+#      LUT1                        : 96
+#      LUT2                        : 38
+#      LUT3                        : 53
+#      LUT4                        : 91
+#      MUXCY                       : 117
+#      MUXF5                       : 13
 #      VCC                         : 1
-#      XORCY                       : 26
-# FlipFlops/Latches                : 57
+#      XORCY                       : 110
+# FlipFlops/Latches                : 154
 #      FDC                         : 10
 #      FDCE                        : 18
-#      FDE                         : 28
-#      LDP                         : 1
+#      FDCPE                       : 1
+#      FDE                         : 40
+#      FDRE                        : 84
+#      LDC_1                       : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 32
@@ -413,9 +453,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      114  out of   4656     2%  
- Number of Slice Flip Flops:             57  out of   9312     0%  
- Number of 4 input LUTs:                203  out of   9312     2%  
+ Number of Slices:                      158  out of   4656     3%  
+ Number of Slice Flip Flops:            154  out of   9312     1%  
+ Number of 4 input LUTs:                291  out of   9312     3%  
  Number of IOs:                          33
  Number of bonded IOBs:                  33  out of    232    14%  
  Number of GCLKs:                         1  out of     24     4%  
@@ -441,31 +481,30 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-CLK                                | BUFGP                  | 46    |
-switch_or0000(switch_or00001:O)    | NONE(*)(switch)        | 1     |
+CLK                                | BUFGP                  | 143   |
+flag                               | NONE(flag)             | 1     |
 SSeg/clk240hz                      | NONE(SSeg/pos_1)       | 10    |
 -----------------------------------+------------------------+-------+
-(*) This 1 clock signal(s) are generated by combinatorial logic,
-and XST is not able to identify which are the primary clock signals.
-Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
------------------------------------+------------------------+-------+
-Control Signal                     | Buffer(FF name)        | Load  |
------------------------------------+------------------------+-------+
-BTN<0>                             | IBUF                   | 28    |
-BTN<1>                             | IBUF                   | 1     |
------------------------------------+------------------------+-------+
+---------------------------------------+------------------------+-------+
+Control Signal                         | Buffer(FF name)        | Load  |
+---------------------------------------+------------------------+-------+
+LED_4_OBUF(XST_GND:G)                  | NONE(SSeg/AN_OUT_0)    | 28    |
+flag_0_not0000(flag_0_not00001_INV_0:O)| NONE(flag)             | 1     |
+switch__and0000(switch__and00001:O)    | NONE(switch)           | 1     |
+switch__and0001(switch__or000011:O)    | NONE(switch)           | 1     |
+---------------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -4
 
    Minimum period: 5.522ns (Maximum Frequency: 181.094MHz)
-   Minimum input arrival time before clock: 2.593ns
-   Maximum output required time after clock: 11.940ns
+   Minimum input arrival time before clock: 2.057ns
+   Maximum output required time after clock: 11.850ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -473,32 +512,9 @@ Timing Detail:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'SSeg/clk240hz'
-  Clock period: 3.099ns (frequency: 322.685MHz)
-  Total number of paths / destination ports: 23 / 10
--------------------------------------------------------------------------
-Delay:               3.099ns (Levels of Logic = 2)
-  Source:            SSeg/pos_0 (FF)
-  Destination:       SSeg/hexnum_3 (FF)
-  Source Clock:      SSeg/clk240hz rising
-  Destination Clock: SSeg/clk240hz rising
-
-  Data Path: SSeg/pos_0 to SSeg/hexnum_3
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDC:C->Q             14   0.591   1.175  SSeg/pos_0 (SSeg/pos_0)
-     LUT3:I0->O            1   0.704   0.000  SSeg/Mmux_hexnum_mux0001_4 (SSeg/Mmux_hexnum_mux0001_4)
-     MUXF5:I0->O           1   0.321   0.000  SSeg/Mmux_hexnum_mux0001_2_f5 (SSeg/hexnum_mux0001<0>)
-     FDC:D                     0.308          SSeg/hexnum_0
-    ----------------------------------------
-    Total                      3.099ns (1.924ns logic, 1.175ns route)
-                                       (62.1% logic, 37.9% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
   Clock period: 5.522ns (frequency: 181.094MHz)
-  Total number of paths / destination ports: 500 / 35
+  Total number of paths / destination ports: 1722 / 321
 -------------------------------------------------------------------------
 Delay:               5.522ns (Levels of Logic = 18)
   Source:            SSeg/count240hz_1 (FF)
@@ -535,23 +551,46 @@ Delay:               5.522ns (Levels of Logic = 18)
                                        (79.7% logic, 20.3% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 40 / 40
+Timing constraint: Default period analysis for Clock 'SSeg/clk240hz'
+  Clock period: 3.099ns (frequency: 322.685MHz)
+  Total number of paths / destination ports: 23 / 10
 -------------------------------------------------------------------------
-Offset:              2.593ns (Levels of Logic = 1)
-  Source:            BTN<3> (PAD)
-  Destination:       RA_0 (FF)
-  Destination Clock: CLK rising
+Delay:               3.099ns (Levels of Logic = 2)
+  Source:            SSeg/pos_0 (FF)
+  Destination:       SSeg/hexnum_3 (FF)
+  Source Clock:      SSeg/clk240hz rising
+  Destination Clock: SSeg/clk240hz rising
 
-  Data Path: BTN<3> to RA_0
+  Data Path: SSeg/pos_0 to SSeg/hexnum_3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             9   1.218   0.820  BTN_3_IBUF (BTN_3_IBUF)
-     FDE:CE                    0.555          RA_0
+     FDC:C->Q             14   0.591   1.175  SSeg/pos_0 (SSeg/pos_0)
+     LUT3:I0->O            1   0.704   0.000  SSeg/Mmux_hexnum_mux0001_31 (SSeg/Mmux_hexnum_mux0001_31)
+     MUXF5:I1->O           1   0.321   0.000  SSeg/Mmux_hexnum_mux0001_2_f5_0 (SSeg/hexnum_mux0001<1>)
+     FDC:D                     0.308          SSeg/hexnum_1
     ----------------------------------------
-    Total                      2.593ns (1.773ns logic, 0.820ns route)
-                                       (68.4% logic, 31.6% route)
+    Total                      3.099ns (1.924ns logic, 1.175ns route)
+                                       (62.1% logic, 37.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Offset:              2.057ns (Levels of Logic = 1)
+  Source:            SW<0> (PAD)
+  Destination:       op_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: SW<0> to op_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.218   0.531  SW_0_IBUF (SW_0_IBUF)
+     FDE:D                     0.308          op_0
+    ----------------------------------------
+    Total                      2.057ns (1.526ns logic, 0.531ns route)
+                                       (74.2% logic, 25.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'SSeg/clk240hz'
@@ -577,17 +616,17 @@ Offset:              5.870ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
   Total number of paths / destination ports: 504 / 4
 -------------------------------------------------------------------------
-Offset:              11.940ns (Levels of Logic = 13)
-  Source:            op_2 (FF)
+Offset:              11.850ns (Levels of Logic = 13)
+  Source:            op_0 (FF)
   Destination:       LED<2> (PAD)
   Source Clock:      CLK rising
 
-  Data Path: op_2 to LED<2>
+  Data Path: op_0 to LED<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             18   0.591   1.147  op_2 (op_2)
-     LUT3:I1->O            9   0.704   0.855  ALU/ALU_Mux/CCR_OUT_cmp_eq00011 (ALU/ALU_Mux/CCR_OUT_cmp_eq0001)
+     FDE:C->Q             10   0.591   1.057  op_0 (op_0)
+     LUT3:I0->O            9   0.704   0.855  ALU/ALU_Mux/CCR_OUT_cmp_eq00011 (ALU/ALU_Mux/CCR_OUT_cmp_eq0001)
      LUT3:I2->O            1   0.704   0.000  ALU/Arith_Unit/Maddsub_arith_lut<0> (ALU/Arith_Unit/Maddsub_arith_lut<0>)
      MUXCY:S->O            1   0.464   0.000  ALU/Arith_Unit/Maddsub_arith_cy<0> (ALU/Arith_Unit/Maddsub_arith_cy<0>)
      MUXCY:CI->O           1   0.059   0.000  ALU/Arith_Unit/Maddsub_arith_cy<1> (ALU/Arith_Unit/Maddsub_arith_cy<1>)
@@ -601,21 +640,20 @@ Offset:              11.940ns (Levels of Logic = 13)
      LUT3:I2->O            1   0.704   0.420  ALU/ALU_Mux/CCR_OUT<2>196 (LED_2_OBUF)
      OBUF:I->O                 3.272          LED_2_OBUF (LED<2>)
     ----------------------------------------
-    Total                     11.940ns (8.301ns logic, 3.639ns route)
-                                       (69.5% logic, 30.5% route)
+    Total                     11.850ns (8.301ns logic, 3.549ns route)
+                                       (70.1% logic, 29.9% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.57 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.34 secs
  
 --> 
 
-
-Total memory usage is 523180 kilobytes
+Total memory usage is 268076 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   11 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
 Number of infos    :    3 (   0 filtered)
 

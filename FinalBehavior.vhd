@@ -55,38 +55,54 @@ architecture Behavioral of FinalBehavior is
     signal dpc : STD_LOGIC_VECTOR (3 downto 0) := "1111";
     signal cen : STD_LOGIC := '0';
 	 signal switch: STD_LOGIC := '0';
+	 signal buttons: STD_LOGIC_VECTOR (3 downto 0) := "0000";
+	 signal flag: STD_LOGIC := '0';
 	 
 begin
 	LED(7 downto 4) <= tmp;
 	
-	switching: process (BTN(3), BTN(2),BTN(1))
+	switching: process (buttons(3), buttons(2),buttons(1),CLK,buttons(0))
 	begin
-		if (BTN(3) = '1' or BTN(2) = '1') then
-			switch <= '0';
+		if(CLK'event and CLK = '1') then
+			if (buttons(3) = '1' or buttons(2) = '1') then
+				switch <= '0';
+			end if;
+			
+			
+			
+			if(buttons(1) = '1') then
+				switch <= '1';
+			end if;
 		end if;
 		
-		if(BTN(1) = '1') then
-			switch <= '1';
-		end if;	
+		if (buttons(0) = '1' and flag = '0') then
+				flag <= '1';
+				switch <= not switch;
+		end if;
+		
+		if (buttons(0) = '0') then
+			flag <= '0';
+		end if;
+		
 	end process;
 
-	store_1: process (BTN(3), CLK)
+	store_1: process (buttons(3), CLK)
     begin
-        if (CLK'event and CLK = '1' and BTN(3) = '1') then
+        if (CLK'event and CLK = '1' and buttons(3) = '1') then
             RA <= SW(7 downto 0);
         end if;
     end process;
 	 
-	 store_2: process (BTN(2), CLK)
+	 store_2: process (buttons(2), CLK)
     begin
-        if (CLK'event and CLK = '1' and BTN(2) = '1') then
+        if (CLK'event and CLK = '1' and buttons(2) = '1') then
             RB <= SW(7 downto 0);
         end if;
     end process;
 	 
-	 operate: process (BTN(1), CLK)
+	 operate: process (buttons(1), CLK)
     begin
-        if (CLK'event and CLK = '1' and BTN(1) = '1') then
+        if (CLK'event and CLK = '1' and buttons(1) = '1') then
             op <= SW(3 downto 0);
         end if;
     end process;
@@ -94,7 +110,7 @@ begin
 	 with switch select
         output_1 <=
             RA     	when '0',   
-            tmp2     when '1',
+            "0000"&op				when '1',
 				RA 		when others;
 				
 	with switch select
@@ -116,7 +132,7 @@ begin
 	
 	SSeg: entity work.SSegDriver
 	port map(  CLK     => CLK,
-              RST     => BTN(0),
+              RST     => cen,
               EN      => enl,
               SEG_0   => output_1(7 downto 4),
               SEG_1   => output_1(3 downto 0),
@@ -129,6 +145,12 @@ begin
               AN_OUT  => AN
 				  );
 
-
+	button_control: entity work.buttoncontrol
+	port map ( CLK     => CLK,
+           SW      => enl,
+           BTN  	 => BTN,
+           LED 	 => buttons
+			  );
+			
 end Behavioral;
 

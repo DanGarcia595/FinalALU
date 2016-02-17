@@ -1,4 +1,83 @@
-V3 47
+V3 63
+FL //umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/FinalBehavior.vhd 2016/02/17.16:07:24 P.20131013
+EN work/FinalBehavior 1455743268 \
+      FL //umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/FinalBehavior.vhd \
+      PB ieee/std_logic_1164 1381692176 LB work
+AR work/FinalBehavior/Behavioral 1455743269 \
+      FL //umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/FinalBehavior.vhd \
+      EN work/FinalBehavior 1455743268 CP work/ALU CP work/SSegDriver \
+      CP work/buttoncontrol
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_arithmetic_unit.vhd" 2016/02/17.15:31:02 P.20131013
+EN work/Arith_Unit 1455743252 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_arithmetic_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Arith_Unit/Combinational 1455743253 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_arithmetic_unit.vhd" \
+      EN work/Arith_Unit 1455743252
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_logic_unit.vhd" 2016/02/17.15:31:02 P.20131013
+EN work/Logic_Unit 1455743254 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_logic_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Logic_Unit/Combinational 1455743255 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_logic_unit.vhd" \
+      EN work/Logic_Unit 1455743254
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_mux.vhd" 2016/02/17.15:31:02 P.20131013
+EN work/ALU_Mux 1455743260 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_mux.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU_Mux/Combinational 1455743261 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_mux.vhd" \
+      EN work/ALU_Mux 1455743260
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_shift_unit.vhd" 2016/02/17.15:31:02 P.20131013
+EN work/ALU_Shift_Unit 1455743256 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_shift_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU_Shift_Unit/Combinational 1455743257 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_shift_unit.vhd" \
+      EN work/ALU_Shift_Unit 1455743256
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_toplevel.vhd" 2016/02/17.15:31:02 P.20131013
+EN work/ALU 1455743262 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_toplevel.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB work
+AR work/ALU/Structural 1455743263 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/alu_toplevel.vhd" \
+      EN work/ALU 1455743262 CP work/Arith_Unit CP work/Logic_Unit \
+      CP work/alu_shift_unit CP work/Load_Store_Unit CP work/ALU_Mux
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/load_store_unit.vhd" 2016/02/17.15:31:02 P.20131013
+EN work/Load_Store_Unit 1455743258 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/load_store_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Load_Store_Unit/Behavioral 1455743259 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/ALU/load_store_unit.vhd" \
+      EN work/Load_Store_Unit 1455743258
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/button_controller.vhd" 2016/02/17.15:31:03 P.20131013
+EN work/buttoncontrol 1455743266 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/button_controller.vhd" \
+      PB ieee/std_logic_1164 1381692176 LB work
+AR work/buttoncontrol/Structural 1455743267 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/button_controller.vhd" \
+      EN work/buttoncontrol 1455743266 CP work/debounce
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/debounce.vhd" 2016/02/17.15:31:03 P.20131013
+EN work/debounce 1455743250 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/debounce.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/debounce/Logic 1455743251 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/Button/debounce.vhd" \
+      EN work/debounce 1455743250
+FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" 2016/02/17.15:31:03 P.20131013
+EN work/SSegDriver 1455743264 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSegDriver/Behavioral 1455743265 \
+      FL "//umdfs1.umdar.umassd.edu/studentshares$/dgarcia1/FinalALU-master/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
+      EN work/SSegDriver 1455743264
 FL /home/bobby/DigitalDesign/FinalALU/FinalBehavior.vhd 2016/02/16.23:23:17 P.20131013
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" 2016/02/16.21:59:08 P.20131013
 FL "/home/bobby/DigitalDesign/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" 2016/02/16.21:59:08 P.20131013
@@ -15,62 +94,10 @@ FL "/home/dan/ECE368-Lab/Lab 2/ALU/alu_toplevel.vhd" 2016/02/10.14:11:11 P.20131
 FL "/home/dan/ECE368-Lab/Lab 2/ALU/load_store_unit.vhd" 2016/02/10.14:11:11 P.20131013
 FL "/home/dan/ECE368-Lab/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" 2016/02/10.14:11:11 P.20131013
 FL /home/dan/ECE368/FinalALU/FinalBehavior.vhd 2016/02/17.11:47:14 P.20131013
-EN work/FinalBehavior 1455727652 FL /home/dan/ECE368/FinalALU/FinalBehavior.vhd \
-      PB ieee/std_logic_1164 1381692176 LB work
-AR work/FinalBehavior/Behavioral 1455727653 \
-      FL /home/dan/ECE368/FinalALU/FinalBehavior.vhd EN work/FinalBehavior 1455727652 \
-      CP work/ALU CP work/SSegDriver
 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" 2016/02/16.21:57:26 P.20131013
-EN work/Arith_Unit 1455727638 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Arith_Unit/Combinational 1455727639 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_arithmetic_unit.vhd" \
-      EN work/Arith_Unit 1455727638
 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" 2016/02/16.21:57:26 P.20131013
-EN work/Logic_Unit 1455727640 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Logic_Unit/Combinational 1455727641 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_logic_unit.vhd" \
-      EN work/Logic_Unit 1455727640
 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" 2016/02/16.21:57:26 P.20131013
-EN work/ALU_Mux 1455727646 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ALU_Mux/Combinational 1455727647 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_mux.vhd" EN work/ALU_Mux 1455727646
 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" 2016/02/16.21:57:26 P.20131013
-EN work/ALU_Shift_Unit 1455727642 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ALU_Shift_Unit/Combinational 1455727643 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_shift_unit.vhd" \
-      EN work/ALU_Shift_Unit 1455727642
 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" 2016/02/16.21:57:26 P.20131013
-EN work/ALU 1455727648 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB work
-AR work/ALU/Structural 1455727649 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/alu_toplevel.vhd" EN work/ALU 1455727648 \
-      CP work/Arith_Unit CP work/Logic_Unit CP work/alu_shift_unit \
-      CP work/Load_Store_Unit CP work/ALU_Mux
 FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" 2016/02/16.21:57:26 P.20131013
-EN work/Load_Store_Unit 1455727644 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Load_Store_Unit/Behavioral 1455727645 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/ALU/load_store_unit.vhd" \
-      EN work/Load_Store_Unit 1455727644
 FL "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" 2016/02/16.21:57:26 P.20131013
-EN work/SSegDriver 1455727650 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/SSegDriver/Behavioral 1455727651 \
-      FL "/home/dan/ECE368/FinalALU/Lab 2/SevenSegmentDisplay/SevenSeg.vhd" \
-      EN work/SSegDriver 1455727650

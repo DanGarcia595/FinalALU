@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------
-Release 14.7 Trace  (lin64)
+Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-/opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 4 -n
-3 -fastpaths -xml FinalBehavior.twx FinalBehavior.ncd -o FinalBehavior.twr
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml FinalBehavior.twx FinalBehavior.ncd -o FinalBehavior.twr
 FinalBehavior.pcf
 
 Design file:              FinalBehavior.ncd
@@ -45,17 +45,18 @@ Setup/Hold to clock CLK
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-BTN<1>      |    1.497(R)|    0.447(R)|CLK_BUFGP         |   0.000|
-BTN<2>      |    2.480(R)|   -0.113(R)|CLK_BUFGP         |   0.000|
-BTN<3>      |    2.896(R)|    1.387(R)|CLK_BUFGP         |   0.000|
-SW<0>       |    0.746(R)|    1.056(R)|CLK_BUFGP         |   0.000|
-SW<1>       |    0.162(R)|    1.516(R)|CLK_BUFGP         |   0.000|
-SW<2>       |    1.734(R)|    1.264(R)|CLK_BUFGP         |   0.000|
-SW<3>       |    1.232(R)|    1.004(R)|CLK_BUFGP         |   0.000|
-SW<4>       |    0.841(R)|    1.048(R)|CLK_BUFGP         |   0.000|
-SW<5>       |    0.432(R)|    1.462(R)|CLK_BUFGP         |   0.000|
-SW<6>       |    0.823(R)|    1.087(R)|CLK_BUFGP         |   0.000|
-SW<7>       |    0.662(R)|    1.026(R)|CLK_BUFGP         |   0.000|
+BTN<0>      |   -0.068(R)|    1.281(R)|CLK_BUFGP         |   0.000|
+BTN<1>      |    0.568(R)|    0.769(R)|CLK_BUFGP         |   0.000|
+BTN<2>      |   -0.015(R)|    1.235(R)|CLK_BUFGP         |   0.000|
+BTN<3>      |    0.496(R)|    0.808(R)|CLK_BUFGP         |   0.000|
+SW<0>       |    0.769(R)|    1.090(R)|CLK_BUFGP         |   0.000|
+SW<1>       |   -0.037(R)|    1.476(R)|CLK_BUFGP         |   0.000|
+SW<2>       |    0.314(R)|    1.479(R)|CLK_BUFGP         |   0.000|
+SW<3>       |    0.110(R)|    1.293(R)|CLK_BUFGP         |   0.000|
+SW<4>       |    0.532(R)|    0.791(R)|CLK_BUFGP         |   0.000|
+SW<5>       |   -0.070(R)|    1.273(R)|CLK_BUFGP         |   0.000|
+SW<6>       |    1.145(R)|    0.708(R)|CLK_BUFGP         |   0.000|
+SW<7>       |    1.148(R)|    0.684(R)|CLK_BUFGP         |   0.000|
 ------------+------------+------------+------------------+--------+
 
 Clock CLK to Pad
@@ -63,10 +64,10 @@ Clock CLK to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-LED<0>      |   14.365(R)|CLK_BUFGP         |   0.000|
-LED<1>      |   15.823(R)|CLK_BUFGP         |   0.000|
-LED<2>      |   15.583(R)|CLK_BUFGP         |   0.000|
-LED<3>      |   14.382(R)|CLK_BUFGP         |   0.000|
+LED<0>      |   13.688(R)|CLK_BUFGP         |   0.000|
+LED<1>      |   14.002(R)|CLK_BUFGP         |   0.000|
+LED<2>      |   15.173(R)|CLK_BUFGP         |   0.000|
+LED<3>      |   13.509(R)|CLK_BUFGP         |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock CLK
@@ -74,18 +75,18 @@ Clock to Setup on destination clock CLK
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |    4.849|         |         |         |
+CLK            |    4.977|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Wed Feb 17 11:47:42 2016 
+Analysis completed Wed Feb 17 16:08:23 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 349 MB
+Peak Memory Usage: 170 MB
 
 
 
