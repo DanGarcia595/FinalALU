@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-MasterNode::  Tue Feb 16 21:15:42 2016
+MasterNode::  Tue Feb 16 22:17:20 2016
 
 par -w -intstyle ise -ol high -t 1 FinalBehavior_map.ncd FinalBehavior.ncd
 FinalBehavior.pcf 
@@ -42,8 +42,8 @@ Design Summary Report:
    Number of External Bidir IOBs                  0
 
 
-   Number of BUFGMUXs                        1 out of 24      4%
-   Number of Slices                         41 out of 4656    1%
+   Number of BUFGMUXs                        2 out of 24      8%
+   Number of Slices                        109 out of 4656    2%
       Number of SLICEMs                      0 out of 2328    0%
 
 
@@ -56,46 +56,53 @@ Router effort level (-rl):    High
 Starting initial Timing Analysis.  REAL time: 1 secs 
 Finished initial Timing Analysis.  REAL time: 1 secs 
 
-WARNING:Par:288 - The signal BTN<1>_IBUF has no load.  PAR will not attempt to route this signal.
 
 Starting Placer
 Total REAL time at the beginning of Placer: 1 secs 
 Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:fc29f1ab) REAL time: 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:55ef0ebc) REAL time: 1 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:fc29f1ab) REAL time: 2 secs 
+Phase 2.7  Design Feasibility Check (Checksum:55ef0ebc) REAL time: 1 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:fc29f1ab) REAL time: 2 secs 
+Phase 3.31  Local Placement Optimization (Checksum:55ef0ebc) REAL time: 1 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:21c32eeb) REAL time: 2 secs 
+......
+WARNING:Place:1019 - A clock IOB / clock component pair have been found that are not placed at an optimal clock IOB /
+   clock site pair. The clock component <BTN_3_IBUF_BUFG> is placed at site <BUFGMUX_X2Y10>. The IO component <BTN<3>>
+   is placed at site <IPAD73>.  This will not allow the use of the fast path between the IO and the Clock buffer. This
+   is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN <BTN<3>.PAD> allowing your
+   design to continue. This constraint disables all clock placer rules related to the specified COMP.PIN. The use of
+   this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error
+   condition be corrected in the design.
+Phase 4.2  Initial Clock and IO Placement (Checksum:715b9afc) REAL time: 2 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:21c32eeb) REAL time: 2 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:715b9afc) REAL time: 2 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:21c32eeb) REAL time: 2 secs 
+Phase 6.36  Local Placement Optimization (Checksum:715b9afc) REAL time: 2 secs 
 
 Phase 7.8  Global Placement
-..
-..
-Phase 7.8  Global Placement (Checksum:14a14044) REAL time: 3 secs 
+..............................
+.............
+Phase 7.8  Global Placement (Checksum:ced397c9) REAL time: 2 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:14a14044) REAL time: 3 secs 
+Phase 8.5  Local Placement Optimization (Checksum:ced397c9) REAL time: 2 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:fdf0a5eb) REAL time: 4 secs 
+Phase 9.18  Placement Optimization (Checksum:6a98adca) REAL time: 2 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:fdf0a5eb) REAL time: 4 secs 
+Phase 10.5  Local Placement Optimization (Checksum:6a98adca) REAL time: 2 secs 
 
-Total REAL time to Placer completion: 4 secs 
+Total REAL time to Placer completion: 2 secs 
 Total CPU  time to Placer completion: 2 secs 
 Writing design to file FinalBehavior.ncd
 
@@ -104,37 +111,37 @@ Writing design to file FinalBehavior.ncd
 Starting Router
 
 
-Phase  1  : 229 unrouted;      REAL time: 6 secs 
+Phase  1  : 680 unrouted;      REAL time: 5 secs 
 
-Phase  2  : 203 unrouted;      REAL time: 6 secs 
+Phase  2  : 647 unrouted;      REAL time: 5 secs 
 
-Phase  3  : 36 unrouted;      REAL time: 6 secs 
+Phase  3  : 149 unrouted;      REAL time: 5 secs 
 
-Phase  4  : 41 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  4  : 166 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
-
-Updating file: FinalBehavior.ncd with current fully routed design.
-
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
-
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
 Updating file: FinalBehavior.ncd with current fully routed design.
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Updating file: FinalBehavior.ncd with current fully routed design.
 
-Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
-Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 WARNING:Route:455 - CLK Net:SSeg/clk240hz may have excessive skew because 
       0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 8 secs 
+Total REAL time to Router completion: 7 secs 
 Total CPU time to Router completion: 7 secs 
 
 Partition Implementation Status
@@ -153,9 +160,11 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|           CLK_BUFGP | BUFGMUX_X2Y11| No   |   18 |  0.031     |  0.183      |
+|          BTN_3_IBUF | BUFGMUX_X2Y10| No   |    1 |  0.000     |  0.154      |
 +---------------------+--------------+------+------+------------+-------------+
-|       SSeg/clk240hz |         Local|      |    8 |  0.018     |  2.190      |
+|           CLK_BUFGP | BUFGMUX_X2Y11| No   |   24 |  0.049     |  0.182      |
++---------------------+--------------+------+------+------------+-------------+
+|       SSeg/clk240hz |         Local|      |    8 |  0.095     |  2.209      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -175,11 +184,11 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net CLK | SETUP       |         N/A|     5.176ns|     N/A|           0
-  _BUFGP                                    | HOLD        |     1.033ns|            |       0|           0
+  Autotimespec constraint for clock net CLK | SETUP       |         N/A|     4.836ns|     N/A|           0
+  _BUFGP                                    | HOLD        |     1.102ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net SSe | SETUP       |         N/A|     2.763ns|     N/A|           0
-  g/clk240hz                                | HOLD        |     1.278ns|            |       0|           0
+  Autotimespec constraint for clock net SSe | SETUP       |         N/A|     2.714ns|     N/A|           0
+  g/clk240hz                                | HOLD        |     1.299ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -195,18 +204,16 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-WARNING:Par:283 - There are 1 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
-
-Total REAL time to PAR completion: 9 secs 
+Total REAL time to PAR completion: 7 secs 
 Total CPU time to PAR completion: 7 secs 
 
-Peak Memory Usage:  575 MB
+Peak Memory Usage:  576 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.
 
 Number of error messages: 0
-Number of warning messages: 5
+Number of warning messages: 2
 Number of info messages: 1
 
 Writing design to file FinalBehavior.ncd

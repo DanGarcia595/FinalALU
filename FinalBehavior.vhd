@@ -57,17 +57,17 @@ architecture Behavioral of FinalBehavior is
 	 
 begin
 	
-	switching: process (BTN(3), BTN(2),BTN(1), CLK)
+	switching: process (BTN(3), BTN(2),BTN(1))
 	begin
-		if (CLK'event and CLK = '1' and BTN(3) = '1') then
+		if (BTN(3) = '1') then
 			switch <= '0';
 		end if;
 		
-		if (CLK'event and CLK = '1' and BTN(2) = '1') then
+		if (BTN(2) = '1') then
 			switch <= '0';
 		end if;
 		
-		if(CLK'event and CLK = '1' and  BTN(1) = '1') then
+		if(BTN(1) = '1') then
 			switch <= '1';
 		end if;
 		
