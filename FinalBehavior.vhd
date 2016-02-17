@@ -58,21 +58,16 @@ architecture Behavioral of FinalBehavior is
 	 
 begin
 	LED(7 downto 4) <= tmp;
+	
 	switching: process (BTN(3), BTN(2),BTN(1))
 	begin
-	
-		if (BTN(3) = '1') then
-			switch <= '0';
-		end if;
-		
-		if (BTN(2) = '1') then
+		if (BTN(3) = '1' or BTN(2) = '1') then
 			switch <= '0';
 		end if;
 		
 		if(BTN(1) = '1') then
 			switch <= '1';
-		end if;
-		
+		end if;	
 	end process;
 
 	store_1: process (BTN(3), CLK)

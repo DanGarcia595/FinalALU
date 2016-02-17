@@ -6,7 +6,7 @@ Loading device for application Rf_Device from file '3s500e.nph' in environment
 -4
 Opened constraints file FinalBehavior.pcf.
 
-Tue Feb 16 23:26:09 2016
+Wed Feb 17 11:47:44 2016
 
 /opt/Xlinix/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g ConfigRate:1 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g DCMShutdown:Disable -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No FinalBehavior.ncd 
 
@@ -91,7 +91,11 @@ There were 0 CONFIG constraint(s) processed from FinalBehavior.pcf.
 
 
 Running DRC.
-DRC detected 0 errors and 0 warnings.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net switch_or0000 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
 Creating bit map...
 Saving bit stream in "FinalBehavior.bit".
 Bitstream generation is complete.
